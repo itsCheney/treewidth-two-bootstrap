@@ -1,0 +1,466 @@
+ℹ [733/784] Built Bootstrap.Process
+info: ././././Bootstrap/Process.lean:131:0: 'Bootstrap.step_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Process.lean:132:0: 'Bootstrap.step_equivariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Process.lean:133:0: 'Bootstrap.invariant_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [734/784] Built Bootstrap.CyclicClock
+info: ././././Bootstrap/CyclicClock.lean:181:0: 'Bootstrap.CyclicClock.run_iff_interval' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/CyclicClock.lean:182:0: 'Bootstrap.CyclicClock.run_iff_orbit_of_half_le' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/CyclicClock.lean:183:0: 'Bootstrap.CyclicClock.run_fixed_iff' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/CyclicClock.lean:184:0: 'Bootstrap.CyclicClock.diagonal_period' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/CyclicClock.lean:185:0: 'Bootstrap.CyclicClock.crossRun_iff_interval' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/CyclicClock.lean:186:0: 'Bootstrap.CyclicClock.crossRun_fixed_iff' depends on axioms: [propext, Quot.sound]
+ℹ [735/784] Built Bootstrap.TreeBags
+info: ././././Bootstrap/TreeBags.lean:113:0: 'Bootstrap.TreeBags.triangle_forbids_width_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TreeBags.lean:114:0: 'Bootstrap.TreeBags.attach_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [736/786] Built Bootstrap.Localization
+info: ././././Bootstrap/Localization.lean:255:0: 'Bootstrap.Localization.designated_triangleFree' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/Localization.lean:256:0: 'Bootstrap.Localization.page_common_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Localization.lean:257:0: 'Bootstrap.Localization.cross_common_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Localization.lean:258:0: 'Bootstrap.Localization.host_large_common_internal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Localization.lean:259:0: 'Bootstrap.Localization.localize_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [737/786] Built Bootstrap.TreeConstruction
+ℹ [738/786] Built Bootstrap.DegreeTwoTransfer
+info: ././././Bootstrap/DegreeTwoTransfer.lean:433:0: 'Bootstrap.DegreeTwo.putRole_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:434:0: 'Bootstrap.DegreeTwo.one_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:435:0: 'Bootstrap.DegreeTwo.two_middle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:436:0: 'Bootstrap.DegreeTwo.two_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:437:0: 'Bootstrap.DegreeTwo.along_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:438:0: 'Bootstrap.DegreeTwo.long_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:439:0: 'Bootstrap.DegreeTwo.short_route' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTransfer.lean:440:0: 'Bootstrap.DegreeTwo.two_sets_of_neighbours' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [741/786] Built Bootstrap.BookWitness
+info: ././././Bootstrap/BookWitness.lean:226:0: 'Bootstrap.Localization.common_after_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BookWitness.lean:227:0: 'Bootstrap.Localization.book_localized' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BookWitness.lean:228:0: 'Bootstrap.Localization.localize_book_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BookWitness.lean:229:0: 'Bootstrap.Localization.replace_clique_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BookWitness.lean:230:0: 'Bootstrap.Localization.host_primary_adj_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [742/788] Built Bootstrap.SubdivisionBlock
+info: ././././Bootstrap/SubdivisionBlock.lean:212:0: 'Bootstrap.Subdivision.block_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionBlock.lean:213:0: 'Bootstrap.Subdivision.rectangle_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionBlock.lean:214:0: 'Bootstrap.Subdivision.internal_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [743/788] Built Bootstrap.TypedRound
+ℹ [744/788] Built Bootstrap.Orbits
+info: ././././Bootstrap/Orbits.lean:220:0: 'Bootstrap.orbitPresent_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:221:0: 'Bootstrap.missing_card_decreases' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:222:0: 'Bootstrap.exists_stable_le_missing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:223:0: 'Bootstrap.added_edge_whole_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:224:0: 'Bootstrap.stabilizationTime_le_missing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:225:0: 'Bootstrap.exists_stable_after' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:226:0: 'Bootstrap.exists_stable_after_current_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Orbits.lean:227:0: 'Bootstrap.stabilizationTime_le_from_current' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [745/788] Built Bootstrap.ConnectedDegreeTwo
+info: ././././Bootstrap/ConnectedDegreeTwo.lean:320:0: 'Bootstrap.DegreeTwo.hasTwo_iff_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ConnectedDegreeTwo.lean:321:0: 'Bootstrap.DegreeTwo.bounded_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ConnectedDegreeTwo.lean:322:0: 'Bootstrap.DegreeTwo.two_sets_with_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ConnectedDegreeTwo.lean:323:0: 'Bootstrap.DegreeTwo.two_sets_of_neighbours_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [748/788] Built Bootstrap.RuleBooks
+info: ././././Bootstrap/RuleBooks.lean:213:0: 'Bootstrap.Localization.ruleBook' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/RuleBooks.lean:214:0: 'Bootstrap.Localization.localize_rule_role' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/RuleBooks.lean:215:0: 'Bootstrap.Localization.localize_rule' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [749/788] Built Bootstrap.OrdinaryTime
+info: ././././Bootstrap/OrdinaryTime.lean:97:0: 'Bootstrap.stabilizationTime_relabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/OrdinaryTime.lean:98:0: 'Bootstrap.le_maxTime_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/OrdinaryTime.lean:99:0: 'Bootstrap.maxTime_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/OrdinaryTime.lean:100:0: 'Bootstrap.maxTime_le_choose' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [750/788] Built Bootstrap.MarkerMaps
+ℹ [751/788] Built Bootstrap.SubdivisionMerge
+info: ././././Bootstrap/SubdivisionMerge.lean:191:0: 'Bootstrap.Subdivision.midpoint' does not depend on any axioms
+info: ././././Bootstrap/SubdivisionMerge.lean:192:0: 'Bootstrap.Subdivision.many_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionMerge.lean:193:0: 'Bootstrap.Subdivision.radius_of_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionMerge.lean:194:0: 'Bootstrap.Subdivision.merge_touched' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [752/788] Built Bootstrap.TypedClock
+info: ././././Bootstrap/TypedClock.lean:229:0: 'TypedRound.graphRun_eq_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TypedClock.lean:230:0: 'TypedRound.typed_first_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TypedClock.lean:231:0: 'TypedRound.triangleFree' depends on axioms: [propext, Quot.sound]
+ℹ [753/788] Built Bootstrap.CompleteRoute
+info: ././././Bootstrap/CompleteRoute.lean:183:0: 'Bootstrap.DegreeTwo.longStart_finishes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/CompleteRoute.lean:184:0: 'Bootstrap.DegreeTwo.lemma_II_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [754/793] Built Bootstrap.Padding
+info: ././././Bootstrap/Padding.lean:107:0: 'Bootstrap.witness_pad_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Padding.lean:108:0: 'Bootstrap.pad_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Padding.lean:109:0: 'Bootstrap.stabilizationTime_pad' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Padding.lean:110:0: 'Bootstrap.le_maxTime_of_padding' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [755/793] Built Bootstrap.RuleStructure
+info: ././././Bootstrap/RuleStructure.lean:142:0: 'Bootstrap.RuleStructure.source_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/RuleStructure.lean:143:0: 'Bootstrap.RuleStructure.host_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/RuleStructure.lean:144:0: 'Bootstrap.RuleStructure.source_minDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [756/793] Built Bootstrap.SubdivisionAccounting
+info: ././././Bootstrap/SubdivisionAccounting.lean:189:0: 'Bootstrap.Subdivision.birth_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionAccounting.lean:190:0: 'Bootstrap.Subdivision.first_contact_low' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionAccounting.lean:191:0: 'Bootstrap.Subdivision.paid_rounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionAccounting.lean:192:0: 'Bootstrap.Subdivision.window_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [757/793] Built Bootstrap.HighBirth
+info: ././././Bootstrap/HighBirth.lean:120:0: 'Bootstrap.DegreeTwo.high_birth_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [758/796] Built Bootstrap.RuleConnectivity
+info: ././././Bootstrap/RuleConnectivity.lean:238:0: 'Bootstrap.RuleConnectivity.source_deleted_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/RuleConnectivity.lean:239:0: 'Bootstrap.RuleConnectivity.source_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [762/796] Built Bootstrap.Asymptotics
+info: ././././Bootstrap/Asymptotics.lean:73:0: 'Bootstrap.consecutive_period' depends on axioms: [propext]
+info: ././././Bootstrap/Asymptotics.lean:74:0: 'Bootstrap.quadratic_of_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Asymptotics.lean:75:0: 'Bootstrap.quadratic_excludes_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [763/796] Built Bootstrap.MarkedSimulation
+info: ././././Bootstrap/MarkedSimulation.lean:266:0: 'Bootstrap.MarkedSimulation.expansion_step_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/MarkedSimulation.lean:267:0: 'Bootstrap.MarkedSimulation.ordinary_step_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/MarkedSimulation.lean:268:0: 'Bootstrap.MarkedSimulation.exact_ordinary_round' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/MarkedSimulation.lean:269:0: 'Bootstrap.MarkedSimulation.ordinary_fixed_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [764/798] Built Bootstrap.SubdivisionPartition
+info: ././././Bootstrap/SubdivisionPartition.lean:138:0: 'Bootstrap.Subdivision.perform_merger' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionPartition.lean:139:0: 'Bootstrap.Subdivision.singleton_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [767/798] Built Bootstrap.RuleEdgeCount
+info: ././././Bootstrap/RuleEdgeCount.lean:247:0: 'Bootstrap.RuleEdgeCount.source_edge_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [768/798] Built Bootstrap.CliqueAbsorption
+info: ././././Bootstrap/CliqueAbsorption.lean:156:0: 'Bootstrap.DegreeTwo.absorbs_touching' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/CliqueAbsorption.lean:157:0: 'Bootstrap.DegreeTwo.one_monochrome_clique' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [769/798] Built Bootstrap.ThetaRules
+info: ././././Bootstrap/ThetaRules.lean:210:0: 'Bootstrap.Theta.rule_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaRules.lean:211:0: 'Bootstrap.Theta.linear_upper_of_degree_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaRules.lean:212:0: 'Bootstrap.Theta.linear_lower_of_degree_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaRules.lean:213:0: 'Bootstrap.Theta.theta_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [770/800] Built Bootstrap.QuadraticRule
+info: ././././Bootstrap/QuadraticRule.lean:50:0: 'Bootstrap.ordinary_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/QuadraticRule.lean:51:0: 'Bootstrap.ordinary_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/QuadraticRule.lean:52:0: 'Bootstrap.ordinary_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/QuadraticRule.lean:53:0: 'Bootstrap.ordinary_not_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [774/800] Built Bootstrap.SubdivisionWindows
+info: ././././Bootstrap/SubdivisionWindows.lean:189:0: 'Bootstrap.Subdivision.internal_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionWindows.lean:190:0: 'Bootstrap.Subdivision.internal_lifetime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionWindows.lean:191:0: 'Bootstrap.Subdivision.count_low_windows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionWindows.lean:192:0: 'Bootstrap.Subdivision.waiting_round' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [775/800] Built Bootstrap.InitialProperties
+info: ././././Bootstrap/InitialProperties.lean:105:0: 'Bootstrap.MarkedSimulation.initial_connected' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/InitialProperties.lean:312:0: 'Bootstrap.MarkedSimulation.initial_stabilizationTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/InitialProperties.lean:313:0: 'Bootstrap.MarkedSimulation.initial_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/InitialProperties.lean:314:0: 'Bootstrap.MarkedSimulation.initial_maxDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [776/800] Built Bootstrap.MarkPropagation
+info: ././././Bootstrap/MarkPropagation.lean:118:0: 'Bootstrap.DegreeTwo.neighbours_change_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [777/804] Built Bootstrap.HubBags
+info: ././././Bootstrap/HubBags.lean:200:0: 'Bootstrap.SourceBags.hubs_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/HubBags.lean:201:0: 'Bootstrap.SourceBags.logical_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [780/804] Built Bootstrap.BipartiteSpread
+info: ././././Bootstrap/BipartiteSpread.lean:140:0: 'Bootstrap.DegreeTwo.recruit_shore' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BipartiteSpread.lean:141:0: 'Bootstrap.DegreeTwo.fill_opposite' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [781/804] Built Bootstrap.FMSComponent
+info: ././././Bootstrap/FMSComponent.lean:157:0: 'Bootstrap.FMS.component_not_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [782/804] Built Bootstrap.CliqueClock
+info: ././././Bootstrap/CliqueClock.lean:226:0: 'Bootstrap.DegreeTwo.clique_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/CliqueClock.lean:227:0: 'Bootstrap.DegreeTwo.linear_of_one_monochrome' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [783/804] Built Bootstrap.SubdivisionLinear
+info: ././././Bootstrap/SubdivisionLinear.lean:171:0: 'Bootstrap.Subdivision.stabilization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionLinear.lean:172:0: 'Bootstrap.Subdivision.maxTime_bound_of_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/SubdivisionLinear.lean:173:0: 'Bootstrap.Subdivision.once_subdivision_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [787/808] Built Bootstrap.BoundedHosts
+info: ././././Bootstrap/BoundedHosts.lean:114:0: 'Bootstrap.bounded_all_orders' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BoundedHosts.lean:115:0: 'Bootstrap.bounded_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [788/808] Built Bootstrap.SourceWidth
+info: ././././Bootstrap/SourceWidth.lean:134:0: 'Bootstrap.SourceBags.source_width_exactly_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [789/808] Built Bootstrap.OddWalkMarks
+info: ././././Bootstrap/OddWalkMarks.lean:142:0: 'Bootstrap.DegreeTwo.bounded_odd_walks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/OddWalkMarks.lean:143:0: 'Bootstrap.DegreeTwo.odd_walk_makes_clique' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [790/809] Built Bootstrap.FMSPropagation
+info: ././././Bootstrap/FMSPropagation.lean:90:0: 'Bootstrap.FMS.frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/FMSPropagation.lean:91:0: 'Bootstrap.FMS.tail_frontier' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [794/809] Built Bootstrap.FirstHigh
+info: ././././Bootstrap/FirstHigh.lean:66:0: 'Bootstrap.DegreeTwo.first_high_or_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [795/811] Built Bootstrap.BipartiteComponents
+info: ././././Bootstrap/BipartiteComponents.lean:134:0: 'Bootstrap.DegreeTwo.local_component_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BipartiteComponents.lean:135:0: 'Bootstrap.DegreeTwo.stable_of_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [799/965] Built Bootstrap.ShortRule
+info: ././././Bootstrap/ShortRule.lean:172:0: 'Bootstrap.maxTime_rule_iso' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ShortRule.lean:173:0: 'Bootstrap.Subdivision.suppress_short_routes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ShortRule.lean:174:0: 'Bootstrap.Subdivision.short_rule_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1011/1030] Built Bootstrap.NonbipLinear
+info: ././././Bootstrap/NonbipLinear.lean:87:0: 'Bootstrap.DegreeTwo.nonbip_long_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1015/1030] Built Bootstrap.BicliqueCompletion
+info: ././././Bootstrap/BicliqueCompletion.lean:136:0: 'Bootstrap.DegreeTwo.biclique_spans' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/BicliqueCompletion.lean:137:0: 'Bootstrap.DegreeTwo.spanning_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1019/1058] Built Bootstrap.Suppression
+info: ././././Bootstrap/Suppression.lean:253:0: 'Bootstrap.Suppression.preserves_twoConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Suppression.lean:254:0: 'Bootstrap.Suppression.two_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Suppression.lean:255:0: 'Bootstrap.Suppression.reducible' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1036/1058] Built Bootstrap.TreeSemantics
+info: ././././Bootstrap/TreeSemantics.lean:292:0: 'Bootstrap.TreeSemantics.of_parent_bags' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TreeSemantics.lean:293:0: 'Bootstrap.TreeSemantics.three_subtrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TreeSemantics.lean:294:0: 'Bootstrap.TreeSemantics.triangle_forbids_width_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1037/1058] Built Bootstrap.LongRouteLinear
+info: ././././Bootstrap/LongRouteLinear.lean:85:0: 'Bootstrap.DegreeTwo.bipartite_connected_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/LongRouteLinear.lean:86:0: 'Bootstrap.DegreeTwo.long_rule_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1038/1058] Built Bootstrap.ThetaConnectivity
+info: ././././Bootstrap/ThetaConnectivity.lean:111:0: 'Bootstrap.Theta.deleted_connected' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/ThetaConnectivity.lean:112:0: 'Bootstrap.Theta.twoConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1039/1058] Built Bootstrap.QuantitativeLongRoute
+info: ././././Bootstrap/QuantitativeLongRoute.lean:108:0: 'Bootstrap.DegreeTwo.paidNeighbours_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/QuantitativeLongRoute.lean:109:0: 'Bootstrap.DegreeTwo.odd_walk_length_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/QuantitativeLongRoute.lean:110:0: 'Bootstrap.DegreeTwo.nonbip_clock_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1041/1058] Built Bootstrap.VertexCover
+info: ././././Bootstrap/VertexCover.lean:154:0: 'Bootstrap.VertexCover.bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/VertexCover.lean:155:0: 'Bootstrap.VertexCover.remaining' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/VertexCover.lean:157:0: 'Bootstrap.VertexCover.orbit_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1045/1059] Built Bootstrap.AppendixEdgeCharges
+info: ././././Bootstrap/AppendixEdgeCharges.lean:162:0: 'Bootstrap.Subdivision.Appendix.witnesses_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/AppendixEdgeCharges.lean:163:0: 'Bootstrap.Subdivision.Appendix.Chosen.first_crosses' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/AppendixEdgeCharges.lean:164:0: 'Bootstrap.Subdivision.Appendix.charge_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1047/1060] Built Bootstrap.SubdivisionLedger
+info: ././././Bootstrap/SubdivisionLedger.lean:190:0: 'Bootstrap.Subdivision.accounted_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1048/1081] Built Bootstrap.Counterexample
+info: ././././Bootstrap/Counterexample.lean:54:0: 'Bootstrap.Preprint.ordinary_treewidth_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Counterexample.lean:55:0: 'Bootstrap.Preprint.theorem_III_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Counterexample.lean:56:0: 'Bootstrap.Preprint.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1050/1081] Built Bootstrap.FMSLowerHost
+info: ././././Bootstrap/FMSLowerHost.lean:121:0: 'Bootstrap.FMS.segment_clique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/FMSLowerHost.lean:122:0: 'Bootstrap.FMS.path_host_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1051/1081] Built Bootstrap.ThetaBags
+info: ././././Bootstrap/ThetaBags.lean:122:0: 'Bootstrap.Theta.parent_width_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaBags.lean:123:0: 'Bootstrap.Theta.theta_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1053/1081] Built Bootstrap.CounterexampleDetails
+info: ././././Bootstrap/CounterexampleDetails.lean:63:0: 'Bootstrap.Preprint.family_order_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/CounterexampleDetails.lean:64:0: 'Bootstrap.Preprint.triangle_after_deleting' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1054/1081] Built Bootstrap.AppendixMergeSchedule
+info: ././././Bootstrap/AppendixMergeSchedule.lean:160:0: 'Bootstrap.Subdivision.Appendix.make_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/AppendixMergeSchedule.lean:161:0: 'Bootstrap.Subdivision.Appendix.Schedule.merger_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1055/1081] Built Bootstrap.ExtensionCorollary
+info: ././././Bootstrap/ExtensionCorollary.lean:166:0: 'Bootstrap.Suppression.standard_width_suppress' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ExtensionCorollary.lean:167:0: 'Bootstrap.Suppression.three_vertex_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ExtensionCorollary.lean:168:0: 'Bootstrap.Preprint.corollary_II_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1056/1081] Built Bootstrap.TerminalSymmetry
+info: ././././Bootstrap/TerminalSymmetry.lean:86:0: 'Bootstrap.terminal_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TerminalSymmetry.lean:87:0: 'Bootstrap.self_near_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1057/1081] Built Bootstrap.PrimitiveParameters
+info: ././././Bootstrap/PrimitiveParameters.lean:118:0: 'Bootstrap.Theta.Contraction.mixed_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/PrimitiveParameters.lean:119:0: 'Bootstrap.Theta.Contraction.odd_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1059/1082] Built Bootstrap.ThetaIncidence
+info: ././././Bootstrap/ThetaIncidence.lean:74:0: 'Bootstrap.ThetaIncidence.full_of_transitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1060/1082] Built Bootstrap.PrimitiveContraction
+warning: ././././Bootstrap/PrimitiveContraction.lean:37:8: automatically included section variable(s) unused in theorem '_private.Bootstrap.PrimitiveContraction.0.Bootstrap.Theta.Contraction.outside_free':
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+info: ././././Bootstrap/PrimitiveContraction.lean:201:0: 'Bootstrap.Theta.Contraction.closed_of_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/PrimitiveContraction.lean:202:0: 'Bootstrap.Theta.Contraction.empty_of_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1061/1082] Built Bootstrap.FMSLinearLower
+info: ././././Bootstrap/FMSLinearLower.lean:57:0: 'Bootstrap.FMS.linear_lower_of_degree_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/FMSLinearLower.lean:58:0: 'Bootstrap.FMS.linear_lower_of_edge_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1064/1094] Built Bootstrap.ExtensionOperation
+info: ././././Bootstrap/ExtensionOperation.lean:88:0: 'Bootstrap.Suppression.corollary_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1076/1095] Built Bootstrap.ThetaCycleChart
+warning: ././././Bootstrap/ThetaCycleChart.lean:138:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaCycleChart.lean:158:0: 'Bootstrap.Theta.consecutive_of_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCycleChart.lean:159:0: 'Bootstrap.Theta.adj_of_consecutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1079/1100] Built Bootstrap.ThetaSelfBipartite
+info: ././././Bootstrap/ThetaSelfBipartite.lean:153:0: 'Bootstrap.Theta.edge_deleted_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSelfBipartite.lean:154:0: 'Bootstrap.Theta.run_le_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSelfBipartite.lean:156:0: 'Bootstrap.Theta.terminal_le_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSelfBipartite.lean:157:0: 'Bootstrap.Theta.rule_terminal_le_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1083/1102] Built Bootstrap.DegreeTwoBoundary
+info: ././././Bootstrap/DegreeTwoBoundary.lean:58:0: 'Bootstrap.maxTime_subsingleton_rule' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoBoundary.lean:59:0: 'Bootstrap.maxTime_empty_host' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoBoundary.lean:60:0: 'Bootstrap.DegreeTwo.linear_lower_of_extremes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoBoundary.lean:61:0: 'Bootstrap.Theta.theta_family_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1086/1105] Built Bootstrap.AppendixBudget
+info: ././././Bootstrap/AppendixBudget.lean:36:0: 'Bootstrap.Subdivision.displayed_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1090/1105] Built Bootstrap.ThetaReflections
+info: ././././Bootstrap/ThetaReflections.lean:115:0: 'Bootstrap.Theta.rotation_pt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaReflections.lean:116:0: 'Bootstrap.Theta.reflection_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1094/1173] Built Bootstrap.ThetaColourBalance
+info: ././././Bootstrap/ThetaColourBalance.lean:91:0: 'Bootstrap.Theta.uniform_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaColourBalance.lean:92:0: 'Bootstrap.Theta.odd_sides_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1196/1248] Built Bootstrap.DegreeTwoTheorem
+info: ././././Bootstrap/DegreeTwoTheorem.lean:60:0: 'Bootstrap.DegreeTwo.linear_all_orders' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTheorem.lean:61:0: 'Bootstrap.DegreeTwo.theorem_II_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTheorem.lean:62:0: 'Bootstrap.Theta.theta_family_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/DegreeTwoTheorem.lean:63:0: 'Bootstrap.Theta.theorem_I_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1197/1248] Built Bootstrap.AppendixEdgeBudget
+info: ././././Bootstrap/AppendixEdgeBudget.lean:248:0: 'Bootstrap.Subdivision.Appendix.charged_edge_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/AppendixEdgeBudget.lean:249:0: 'Bootstrap.Subdivision.Appendix.projected_charge_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/AppendixEdgeBudget.lean:250:0: 'Bootstrap.Subdivision.Appendix.time_for_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/AppendixEdgeBudget.lean:251:0: 'Bootstrap.Subdivision.Appendix.displayed_edge_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1198/1248] Built Bootstrap.ThetaIntegerChart
+info: ././././Bootstrap/ThetaIntegerChart.lean:94:0: 'Bootstrap.Theta.intPt_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaIntegerChart.lean:95:0: 'Bootstrap.Theta.rotate_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1199/1248] Built Bootstrap.ThetaCorridor
+info: ././././Bootstrap/ThetaCorridor.lean:129:0: 'Bootstrap.Theta.Corridor.edge_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridor.lean:130:0: 'Bootstrap.Theta.Corridor.terminal_near_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1201/1248] Built Bootstrap.EqualArmCoordinates
+info: ././././Bootstrap/EqualArmCoordinates.lean:182:0: 'Bootstrap.Theta.EqualArms.trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1202/1248] Built Bootstrap.TerminalExchange
+info: ././././Bootstrap/TerminalExchange.lean:64:0: 'Bootstrap.Exchange.all_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1203/1248] Built Bootstrap.WidthOneDegenerate
+info: ././././Bootstrap/WidthOneDegenerate.lean:121:0: 'Bootstrap.TreeLinear.oneDegenerate_of_width_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1204/1248] Built Bootstrap.TreeExtremalClock
+info: ././././Bootstrap/TreeExtremalClock.lean:117:0: 'Bootstrap.TreeLinear.time_of_free_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1205/1248] Built Bootstrap.ThetaCoordinateModulo
+info: ././././Bootstrap/ThetaCoordinateModulo.lean:56:0: 'Bootstrap.Theta.intPt_mod_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1206/1248] Built Bootstrap.ThetaTranslationGroup
+info: ././././Bootstrap/ThetaTranslationGroup.lean:89:0: 'Bootstrap.Theta.gcd_rotation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaTranslationGroup.lean:90:0: 'Bootstrap.Theta.reflectionGroup_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1207/1248] Built Bootstrap.Preprint
+info: ././././Bootstrap/Preprint.lean:23:0: 'Bootstrap.Theta.theorem_I_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:24:0: 'Bootstrap.Theta.theta_family_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:25:0: 'Bootstrap.DegreeTwo.theorem_II_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:26:0: 'Bootstrap.DegreeTwo.lemma_II_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:27:0: 'Bootstrap.Suppression.corollary_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:28:0: 'Bootstrap.Preprint.theorem_III_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:29:0: 'Bootstrap.Subdivision.once_subdivision_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/Preprint.lean:30:0: 'Bootstrap.Preprint.theta_treewidth_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1208/1248] Built Bootstrap.PrimitiveThetaGeometry
+info: ././././Bootstrap/PrimitiveThetaGeometry.lean:125:0: 'Bootstrap.Theta.Contraction.outside_rotation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/PrimitiveThetaGeometry.lean:126:0: 'Bootstrap.Theta.Contraction.odd_thin' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1210/1248] Built Bootstrap.ThetaCorridorChart
+info: ././././Bootstrap/ThetaCorridorChart.lean:133:0: 'Bootstrap.Theta.Corridor.chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1211/1248] Built Bootstrap.TreeSparseEmbedding
+info: ././././Bootstrap/TreeSparseEmbedding.lean:143:0: 'Bootstrap.TreeLinear.embed_in_dense_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TreeSparseEmbedding.lean:144:0: 'Bootstrap.TreeLinear.sparse_free_arcs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/TreeSparseEmbedding.lean:145:0: 'Bootstrap.TreeLinear.linear_of_degenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1212/1248] Built Bootstrap.EqualArmWitness
+info: ././././Bootstrap/EqualArmWitness.lean:144:0: 'Bootstrap.Theta.EqualArms.witness_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/EqualArmWitness.lean:145:0: 'Bootstrap.Theta.EqualArms.poles' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1214/1248] Built Bootstrap.ThetaCorridorTwist
+info: ././././Bootstrap/ThetaCorridorTwist.lean:94:0: 'Bootstrap.Theta.Corridor.twist_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1215/1248] Built Bootstrap.PrimitiveFromSeeds
+info: ././././Bootstrap/PrimitiveFromSeeds.lean:161:0: 'Bootstrap.Theta.Contraction.mixed_from_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/PrimitiveFromSeeds.lean:162:0: 'Bootstrap.Theta.Contraction.odd_from_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1216/1248] Built Bootstrap.ThetaCorridorScaleTwo
+info: ././././Bootstrap/ThetaCorridorScaleTwo.lean:57:0: 'Bootstrap.Theta.Corridor.scale_two_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1217/1248] Built Bootstrap.ThetaCorridorCounts
+info: ././././Bootstrap/ThetaCorridorCounts.lean:146:0: 'Bootstrap.Theta.Corridor.card_junctions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorCounts.lean:147:0: 'Bootstrap.Theta.Corridor.card_port' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorCounts.lean:148:0: 'Bootstrap.Theta.Corridor.card_ports' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorCounts.lean:149:0: 'Bootstrap.Theta.Corridor.card_junction' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1219/1248] Built Bootstrap.MinimumQuadraticWidth
+info: ././././Bootstrap/MinimumQuadraticWidth.lean:39:0: 'Bootstrap.Preprint.width_one_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/MinimumQuadraticWidth.lean:40:0: 'Bootstrap.Preprint.minimum_quadratic_treewidth' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1220/1248] Built Bootstrap.EqualArmClosure
+info: ././././Bootstrap/EqualArmClosure.lean:149:0: 'Bootstrap.Theta.EqualArms.gap_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/EqualArmClosure.lean:150:0: 'Bootstrap.Theta.EqualArms.step_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/EqualArmClosure.lean:151:0: 'Bootstrap.Theta.equal_length_self_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1221/1248] Built Bootstrap.ThetaPeriodArithmetic
+info: ././././Bootstrap/ThetaPeriodArithmetic.lean:109:0: 'Bootstrap.ThetaPeriodArithmetic.glued_periods' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/ThetaPeriodArithmetic.lean:110:0: 'Bootstrap.ThetaPeriodArithmetic.centered_residues' depends on axioms: [propext, Quot.sound]
+ℹ [1222/1248] Built Bootstrap.ThetaVertexOrbits
+info: ././././Bootstrap/ThetaVertexOrbits.lean:79:0: 'Bootstrap.Theta.related_of_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaVertexOrbits.lean:80:0: 'Bootstrap.Theta.transitive_when_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1223/1248] Built Bootstrap.ThetaSeedArithmetic
+warning: ././././Bootstrap/ThetaSeedArithmetic.lean:23:52: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaSeedArithmetic.lean:94:0: 'Bootstrap.ThetaPeriodArithmetic.mixed_seed_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSeedArithmetic.lean:95:0: 'Bootstrap.ThetaPeriodArithmetic.odd_seed_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1224/1248] Built Bootstrap.ThetaExternalSeeds
+info: ././././Bootstrap/ThetaExternalSeeds.lean:85:0: 'Bootstrap.Theta.seed_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaExternalSeeds.lean:86:0: 'Bootstrap.Theta.seed_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1225/1248] Built Bootstrap.ThetaLabelInvariance
+info: ././././Bootstrap/ThetaLabelInvariance.lean:87:0: 'Bootstrap.Theta.group_preserves_color' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1226/1248] Built Bootstrap.PrimitiveOrbitReduction
+info: ././././Bootstrap/PrimitiveOrbitReduction.lean:98:0: 'Bootstrap.Theta.Contraction.primitive_mixed_after_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/PrimitiveOrbitReduction.lean:99:0: 'Bootstrap.Theta.Contraction.primitive_odd_after_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1227/1248] Built Bootstrap.ThetaPrimitiveSeeds
+info: ././././Bootstrap/ThetaPrimitiveSeeds.lean:28:0: 'Bootstrap.Theta.primitive_seed_mixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaPrimitiveSeeds.lean:29:0: 'Bootstrap.Theta.primitive_seed_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1228/1248] Built Bootstrap.ThetaCorridorSpanning
+info: ././././Bootstrap/ThetaCorridorSpanning.lean:169:0: 'Bootstrap.Theta.Corridor.twist_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1229/1248] Built Bootstrap.ThetaSignedClasses
+warning: ././././Bootstrap/ThetaSignedClasses.lean:60:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSignedClasses.lean:62:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSignedClasses.lean:75:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaSignedClasses.lean:132:0: 'Bootstrap.Theta.reflectionRelated_iff_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSignedClasses.lean:133:0: 'Bootstrap.Theta.complete_class_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1230/1248] Built Bootstrap.ThetaSegmentResidues
+warning: ././././Bootstrap/ThetaSegmentResidues.lean:65:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSegmentResidues.lean:66:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSegmentResidues.lean:78:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSegmentResidues.lean:79:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaSegmentResidues.lean:128:0: 'Bootstrap.Theta.Corridor.ports_class' depends on axioms: [propext, Quot.sound]
+info: ././././Bootstrap/ThetaSegmentResidues.lean:129:0: 'Bootstrap.Theta.Corridor.port_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1231/1248] Built Bootstrap.ThetaCorridorSegments
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:71:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:72:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:73:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:76:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:78:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:109:97: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:158:75: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorSegments.lean:158:96: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaCorridorSegments.lean:218:0: 'Bootstrap.Theta.Corridor.segment_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1232/1248] Built Bootstrap.ThetaParityCycle
+info: ././././Bootstrap/ThetaParityCycle.lean:83:0: 'Bootstrap.Theta.cycle_between_parities' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1233/1248] Built Bootstrap.ThetaSlotReflections
+warning: ././././Bootstrap/ThetaSlotReflections.lean:68:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSlotReflections.lean:105:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSlotReflections.lean:105:70: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSlotReflections.lean:115:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaSlotReflections.lean:115:70: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaSlotReflections.lean:127:0: 'Bootstrap.Theta.Corridor.cycle_slot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSlotReflections.lean:128:0: 'Bootstrap.Theta.Corridor.reflection_sends_slot' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1234/1248] Built Bootstrap.ThetaCorridorExchange
+warning: ././././Bootstrap/ThetaCorridorExchange.lean:39:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorExchange.lean:39:79: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorExchange.lean:40:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ././././Bootstrap/ThetaCorridorExchange.lean:40:80: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaCorridorExchange.lean:67:0: 'Bootstrap.Theta.Corridor.junction_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorExchange.lean:68:0: 'Bootstrap.Theta.Corridor.transfer_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1235/1248] Built Bootstrap.ThetaOppositeSlot
+info: ././././Bootstrap/ThetaOppositeSlot.lean:49:0: 'Bootstrap.Theta.Corridor.opposite_slot_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1236/1248] Built Bootstrap.ThetaSlotActions
+info: ././././Bootstrap/ThetaSlotActions.lean:80:0: 'Bootstrap.Theta.Corridor.port_iff_tip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSlotActions.lean:81:0: 'Bootstrap.Theta.Corridor.group_on_slots' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1237/1248] Built Bootstrap.ThetaSegmentIncidence
+warning: ././././Bootstrap/ThetaSegmentIncidence.lean:66:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaSegmentIncidence.lean:126:0: 'Bootstrap.Theta.Corridor.colored_segment_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSegmentIncidence.lean:127:0: 'Bootstrap.Theta.Corridor.mixed_segment_lower_even_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1238/1248] Built Bootstrap.ThetaUnitPair
+info: ././././Bootstrap/ThetaUnitPair.lean:140:0: 'Bootstrap.Theta.unit_pair_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1239/1248] Built Bootstrap.ThetaCorridorStars
+warning: ././././Bootstrap/ThetaCorridorStars.lean:83:31: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: ././././Bootstrap/ThetaCorridorStars.lean:91:0: 'Bootstrap.Theta.Corridor.even_depth_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorStars.lean:92:0: 'Bootstrap.Theta.Corridor.colored_poles_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1240/1248] Built Bootstrap.ThetaParityExtension
+info: ././././Bootstrap/ThetaParityExtension.lean:84:0: 'Bootstrap.Theta.opposite_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1241/1248] Built Bootstrap.ThetaCorridorClosure
+info: ././././Bootstrap/ThetaCorridorClosure.lean:146:0: 'Bootstrap.Theta.Corridor.bipartite_of_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorClosure.lean:147:0: 'Bootstrap.Theta.Corridor.nonbipartite_of_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCorridorClosure.lean:148:0: 'Bootstrap.Theta.Corridor.self_closure_of_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1242/1248] Built Bootstrap.ThetaCoprimeClosure
+info: ././././Bootstrap/ThetaCoprimeClosure.lean:142:0: 'Bootstrap.Theta.coprime_opposite_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaCoprimeClosure.lean:143:0: 'Bootstrap.Theta.coprime_odd_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1243/1248] Built Bootstrap.ThetaMixedIncidence
+info: ././././Bootstrap/ThetaMixedIncidence.lean:117:0: 'Bootstrap.Theta.Corridor.mixed_lower_of_middle' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1244/1248] Built Bootstrap.ThetaPrimitiveClosure
+info: ././././Bootstrap/ThetaPrimitiveClosure.lean:185:0: 'Bootstrap.Theta.coprime_all_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaPrimitiveClosure.lean:186:0: 'Bootstrap.Theta.primitive_mixed_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaPrimitiveClosure.lean:187:0: 'Bootstrap.Theta.primitive_odd_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1245/1248] Built Bootstrap.ThetaSelfClassification
+info: ././././Bootstrap/ThetaSelfClassification.lean:215:0: 'Bootstrap.Theta.colorable_two_iff_arm_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSelfClassification.lean:216:0: 'Bootstrap.Theta.unequal_self_of_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaSelfClassification.lean:217:0: 'Bootstrap.Theta.self_classification_of_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1246/1248] Built Bootstrap.ThetaClosureClassification
+info: ././././Bootstrap/ThetaClosureClassification.lean:38:0: 'Bootstrap.Theta.scaled_segment_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././Bootstrap/ThetaClosureClassification.lean:39:0: 'Bootstrap.Theta.self_closure_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1247/1248] Built Bootstrap
+Build completed successfully.
+build-rc=0

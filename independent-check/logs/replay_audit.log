@@ -1,0 +1,1581 @@
+REPLAY Bootstrap.Process in a fresh process
+EXCLUDED compiler implementation Bootstrap.run.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.run._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.step._cstage2
+EXCLUDED compiler implementation Bootstrap.run._cstage2
+EXCLUDED compiler implementation Bootstrap.step._cstage1
+EXCLUDED compiler implementation Bootstrap.run._unsafe_rec
+EXCLUDED compiler implementation Bootstrap.run._cstage1
+MODULE Bootstrap.Process PASS 20 safe declarations
+RESULT Bootstrap.Process 20 7 Classical.choice propext Quot.sound
+REPLAY Bootstrap.DegreeTwoTransfer in a fresh process
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Chain._unsafe_rec
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Chain.match_1._cstage1
+MODULE Bootstrap.DegreeTwoTransfer PASS 104 safe declarations
+RESULT Bootstrap.DegreeTwoTransfer 104 2 Classical.choice propext Quot.sound
+REPLAY Bootstrap.ConnectedDegreeTwo in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ConnectedDegreeTwo.0.SimpleGraph.Walk.length.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.transferGraph._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ConnectedDegreeTwo.0.SimpleGraph.Walk.length.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.transferGraph._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ConnectedDegreeTwo.0.SimpleGraph.Walk.length.match_1.splitter._cstage1
+MODULE Bootstrap.ConnectedDegreeTwo PASS 38 safe declarations
+RESULT Bootstrap.ConnectedDegreeTwo 38 5 propext Quot.sound Classical.choice
+REPLAY Bootstrap.CompleteRoute in a fresh process
+MODULE Bootstrap.CompleteRoute PASS 62 safe declarations
+RESULT Bootstrap.CompleteRoute 62 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.HighBirth in a fresh process
+MODULE Bootstrap.HighBirth PASS 31 safe declarations
+RESULT Bootstrap.HighBirth 31 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.CliqueAbsorption in a fresh process
+MODULE Bootstrap.CliqueAbsorption PASS 9 safe declarations
+RESULT Bootstrap.CliqueAbsorption 9 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.Orbits in a fresh process
+EXCLUDED compiler implementation Bootstrap.edgeAction._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.edgeSMul._cstage2
+EXCLUDED compiler implementation Bootstrap.orbitOf._cstage2
+EXCLUDED compiler implementation Bootstrap.edgeSMul._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.edgeAction._cstage2
+EXCLUDED compiler implementation Bootstrap.edgeSMul._cstage1
+EXCLUDED compiler implementation Bootstrap.edgeSMul._rarg._lambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.orbitOf._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.edgeAction._cstage1
+EXCLUDED compiler implementation Bootstrap.orbitOf._cstage1
+MODULE Bootstrap.Orbits PASS 43 safe declarations
+RESULT Bootstrap.Orbits 43 10 propext Quot.sound Classical.choice
+REPLAY Bootstrap.OrdinaryTime in a fresh process
+MODULE Bootstrap.OrdinaryTime PASS 12 safe declarations
+RESULT Bootstrap.OrdinaryTime 12 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.Padding in a fresh process
+EXCLUDED compiler implementation Bootstrap.padIsolates._cstage2
+EXCLUDED compiler implementation Bootstrap.padIsolates._cstage1
+MODULE Bootstrap.Padding PASS 13 safe declarations
+RESULT Bootstrap.Padding 13 2 Classical.choice propext Quot.sound
+REPLAY Bootstrap.Asymptotics in a fresh process
+EXCLUDED compiler implementation Bootstrap.familyOrder._cstage2
+EXCLUDED compiler implementation Bootstrap.familyTime._cstage1
+EXCLUDED compiler implementation Bootstrap.familyTime._cstage2
+EXCLUDED compiler implementation Bootstrap.familyOrder._cstage1
+MODULE Bootstrap.Asymptotics PASS 16 safe declarations
+RESULT Bootstrap.Asymptotics 16 4 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SubdivisionBlock in a fresh process
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.rule._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.rule._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.rule.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.values._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionBlock.0.Bootstrap.Subdivision.sumEmbedding._elambda_1._cstage2
+MODULE Bootstrap.SubdivisionBlock PASS 39 safe declarations
+RESULT Bootstrap.SubdivisionBlock 39 17 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SubdivisionMerge in a fresh process
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.baseGraph._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.baseGraph._cstage1
+MODULE Bootstrap.SubdivisionMerge PASS 21 safe declarations
+RESULT Bootstrap.SubdivisionMerge 21 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SubdivisionAccounting in a fresh process
+MODULE Bootstrap.SubdivisionAccounting PASS 19 safe declarations
+RESULT Bootstrap.SubdivisionAccounting 19 0 Classical.choice propext Quot.sound
+REPLAY Bootstrap.FMSComponent in a fresh process
+EXCLUDED compiler implementation Bootstrap.FMS.deleted._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.deleted._cstage1
+MODULE Bootstrap.FMSComponent PASS 22 safe declarations
+RESULT Bootstrap.FMSComponent 22 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.FMSPropagation in a fresh process
+EXCLUDED compiler implementation Bootstrap.FMS.level._cstage1
+EXCLUDED compiler implementation Bootstrap.FMS.level.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.FMSPropagation.0.Bootstrap.FMS.level.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.FMSPropagation.0.Bootstrap.FMS.level.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.tailGraph._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.FMSPropagation.0.Bootstrap.FMS.level.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.level._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.level._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.tailGraph._cstage1
+MODULE Bootstrap.FMSPropagation PASS 20 safe declarations
+RESULT Bootstrap.FMSPropagation 20 9 propext Quot.sound Classical.choice
+REPLAY Bootstrap.FMSLowerHost in a fresh process
+EXCLUDED compiler implementation Multiset.filter._at.Bootstrap.FMS.initialSegment._spec_2._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.initialSegment._cstage1
+EXCLUDED compiler implementation Bootstrap.FMS.initialSegment._closed_1._cstage2
+EXCLUDED compiler implementation List.filterTR.loop._at.Bootstrap.FMS.initialSegment._spec_3._cstage2
+EXCLUDED compiler implementation Bootstrap.FMS.initialSegment._cstage2
+EXCLUDED compiler implementation List.filterTR.loop._at.Bootstrap.FMS.initialSegment._spec_3
+EXCLUDED compiler implementation Finset.filter._at.Bootstrap.FMS.initialSegment._spec_1
+EXCLUDED compiler implementation Finset.filter._at.Bootstrap.FMS.initialSegment._spec_1._cstage2
+EXCLUDED compiler implementation Multiset.filter._at.Bootstrap.FMS.initialSegment._spec_2
+MODULE Bootstrap.FMSLowerHost PASS 22 safe declarations
+RESULT Bootstrap.FMSLowerHost 22 9 propext Quot.sound Classical.choice
+REPLAY Bootstrap.FMSLinearLower in a fresh process
+MODULE Bootstrap.FMSLinearLower PASS 10 safe declarations
+RESULT Bootstrap.FMSLinearLower 10 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaRules in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.before._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.graph._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.endIndex._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_1
+EXCLUDED compiler implementation Bootstrap.Theta.instDecidableRelVertexAdjGraph._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.pole._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.before._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.threeLengths._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.inner._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.afterV._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.rule._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.instDecidableRelVertexAdjGraph._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.endIndex._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_2._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.pole._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.arc.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.before._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.before._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.afterV._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.graph._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.afterV._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.rule._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.instDecidableRelVertexAdjGraph._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.inner._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.pole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.endIndex._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.threeLengths._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.inner._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.afterV._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaRules.0.Bootstrap.Theta.neighborsOfPole._cstage1
+MODULE Bootstrap.ThetaRules PASS 56 safe declarations
+RESULT Bootstrap.ThetaRules 56 38 propext Quot.sound Classical.choice
+REPLAY Bootstrap.DegreeTwoBoundary in a fresh process
+MODULE Bootstrap.DegreeTwoBoundary PASS 6 safe declarations
+RESULT Bootstrap.DegreeTwoBoundary 6 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SubdivisionPartition in a fresh process
+EXCLUDED compiler implementation Bootstrap.Subdivision.threshold._cstage1
+EXCLUDED compiler implementation Bootstrap.Subdivision.threshold._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.threshold._cstage2
+MODULE Bootstrap.SubdivisionPartition PASS 25 safe declarations
+RESULT Bootstrap.SubdivisionPartition 25 3 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SubdivisionWindows in a fresh process
+EXCLUDED compiler implementation Bootstrap.Subdivision.internalBudget._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.internalBudget._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.internalBudget._cstage1
+MODULE Bootstrap.SubdivisionWindows PASS 24 safe declarations
+RESULT Bootstrap.SubdivisionWindows 24 3 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SubdivisionLinear in a fresh process
+EXCLUDED compiler implementation Finset.image._at._private.Bootstrap.SubdivisionLinear.0.Bootstrap.Subdivision.band._spec_1
+EXCLUDED compiler implementation Finset.image._at._private.Bootstrap.SubdivisionLinear.0.Bootstrap.Subdivision.band._spec_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionLinear.0.Bootstrap.Subdivision.band._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionLinear.0.Bootstrap.Subdivision.band._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.slope._cstage1
+EXCLUDED compiler implementation Bootstrap.Subdivision.slope._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.slope._cstage2
+MODULE Bootstrap.SubdivisionLinear PASS 22 safe declarations
+RESULT Bootstrap.SubdivisionLinear 22 7 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ShortRule in a fresh process
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.project._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.project.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.project._cstage1
+EXCLUDED compiler implementation Bootstrap.Subdivision.Data.project._cstage2
+MODULE Bootstrap.ShortRule PASS 11 safe declarations
+RESULT Bootstrap.ShortRule 11 4 Quot.sound propext Classical.choice
+REPLAY Bootstrap.BipartiteSpread in a fresh process
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Biclique.swap._cstage1
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Biclique.swap._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Biclique.swap._cstage2
+MODULE Bootstrap.BipartiteSpread PASS 29 safe declarations
+RESULT Bootstrap.BipartiteSpread 29 3 propext Quot.sound Classical.choice
+REPLAY Bootstrap.CliqueClock in a fresh process
+MODULE Bootstrap.CliqueClock PASS 43 safe declarations
+RESULT Bootstrap.CliqueClock 43 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.BipartiteComponents in a fresh process
+MODULE Bootstrap.BipartiteComponents PASS 11 safe declarations
+RESULT Bootstrap.BipartiteComponents 11 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.BicliqueCompletion in a fresh process
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Biclique.later._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Biclique.later._cstage2
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Biclique.later._cstage1
+MODULE Bootstrap.BicliqueCompletion PASS 16 safe declarations
+RESULT Bootstrap.BicliqueCompletion 16 3 propext Quot.sound Classical.choice
+REPLAY Bootstrap.FirstHigh in a fresh process
+MODULE Bootstrap.FirstHigh PASS 11 safe declarations
+RESULT Bootstrap.FirstHigh 11 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.MarkPropagation in a fresh process
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Shores.flip._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Shores.flip._cstage1
+EXCLUDED compiler implementation Bootstrap.DegreeTwo.Shores.flip._cstage2
+MODULE Bootstrap.MarkPropagation PASS 30 safe declarations
+RESULT Bootstrap.MarkPropagation 30 3 propext Quot.sound Classical.choice
+REPLAY Bootstrap.OddWalkMarks in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.OddWalkMarks.0.Bootstrap.DegreeTwo.endShore._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.OddWalkMarks.0.Bootstrap.DegreeTwo.endShore._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.OddWalkMarks.0.Bootstrap.DegreeTwo.endShore._rarg._cstage2
+MODULE Bootstrap.OddWalkMarks PASS 28 safe declarations
+RESULT Bootstrap.OddWalkMarks 28 3 propext Quot.sound Classical.choice
+REPLAY Bootstrap.NonbipLinear in a fresh process
+MODULE Bootstrap.NonbipLinear PASS 8 safe declarations
+RESULT Bootstrap.NonbipLinear 8 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.LongRouteLinear in a fresh process
+MODULE Bootstrap.LongRouteLinear PASS 12 safe declarations
+RESULT Bootstrap.LongRouteLinear 12 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.DegreeTwoTheorem in a fresh process
+MODULE Bootstrap.DegreeTwoTheorem PASS 4 safe declarations
+RESULT Bootstrap.DegreeTwoTheorem 4 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.Localization in a fresh process
+EXCLUDED compiler implementation Bootstrap.Localization.blockSize._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.clique._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.blockSize.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.pageCount._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.Localization.0.Bootstrap.Localization.blockSize.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.designated._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.physical.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._elambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.designated.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.clique._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.blockSize._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.host._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.Localization.0.Bootstrap.Localization.designated.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.Localization.0.Bootstrap.Localization.blockSize.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.Localization.0.Bootstrap.Localization.designated.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.clique._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.pageCount._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.pageCount._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.physical._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.Localization.0.Bootstrap.Localization.blockSize.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._elambda_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.designated._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.clique._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.Localization.0.Bootstrap.Localization.designated.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.blockSize._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.host._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.coreEmbedding._elambda_1
+EXCLUDED compiler implementation Bootstrap.Localization.physical._cstage2
+MODULE Bootstrap.Localization PASS 85 safe declarations
+RESULT Bootstrap.Localization 85 32 propext Quot.sound Classical.choice
+REPLAY Bootstrap.BookWitness in a fresh process
+EXCLUDED compiler implementation Bootstrap.Localization.coreImage._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.coreImage._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.coreImage._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.coreImage._rarg._closed_1._cstage2
+MODULE Bootstrap.BookWitness PASS 42 safe declarations
+RESULT Bootstrap.BookWitness 42 4 propext Quot.sound Classical.choice
+REPLAY Bootstrap.RuleBooks in a fresh process
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_2
+EXCLUDED compiler implementation Bootstrap.Localization.ruleBook._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.ruleBook._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.pageLo._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.pageHi._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._elambda_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.hubIdx._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.portIdx._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.owner.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.edgeNumber._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.slot._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.owner._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.makePage._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.makePage._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._elambda_1
+EXCLUDED compiler implementation Bootstrap.Localization.owner._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.rule._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.hubIdx._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portIdx._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.hubIdx._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portIdx._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.makePage._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.owner._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.slot._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.ruleBook._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.pageLo._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._elambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.pageHi._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.pageLo._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.edgeNumber._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.rule._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_1
+EXCLUDED compiler implementation Bootstrap.Localization.pageHi._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.assignedPages._cstage1
+EXCLUDED compiler implementation Bootstrap.Localization.portPoint._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleBooks.0.Bootstrap.Localization.slot._cstage1
+MODULE Bootstrap.RuleBooks PASS 70 safe declarations
+RESULT Bootstrap.RuleBooks 70 47 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TypedRound in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_17._cstage2
+EXCLUDED compiler implementation List.pwFilter._at.TypedRound.instFintypeSumKind._spec_8
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_4._cstage2
+EXCLUDED compiler implementation List.foldrTR._at.TypedRound.instFintypeSumKind._spec_9._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_20._cstage2
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeRole._spec_2._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeSumKind._spec_10
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_18._cstage2
+EXCLUDED compiler implementation TypedRound.Edge.toRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.Segment.fromRole.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at.TypedRound.instFintypeRole._spec_7
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_28._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt.match_1.splitter._cstage1
+EXCLUDED compiler implementation TypedRound.instDecidableEqLocalRole._cstage1
+EXCLUDED compiler implementation TypedRound.step._cstage1
+EXCLUDED compiler implementation List.pwFilter._at.TypedRound.instFintypeEdge._spec_5
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeRole._spec_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_12._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.pathArc.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at.TypedRound.instFintypeSumKind._spec_7._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.ofNat._cstage2
+EXCLUDED compiler implementation TypedRound.nextIndex._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_8._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.toCtorIdx._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt._cstage2
+EXCLUDED compiler implementation List.pwFilter._at.TypedRound.instFintypeEdge._spec_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.LocalRole.kind.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at.TypedRound.instFintypeRole._spec_7._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.noConfusion._cstage2
+EXCLUDED compiler implementation TypedRound.instDecidableEqKind._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeSumKind._spec_10._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqKind.match_1.«_@».Bootstrap.TypedRound._hyg.400._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_2._cstage1
+EXCLUDED compiler implementation List.toFinset._at.TypedRound.instFintypeRole._spec_3
+EXCLUDED compiler implementation List.dedup._at.TypedRound.instFintypeEdge._spec_4
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._cstage1
+EXCLUDED compiler implementation TypedRound.Segment.fromRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_7._cstage2
+EXCLUDED compiler implementation List.foldrTR._at.TypedRound.instFintypeRole._spec_9._cstage2
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeSumKind._spec_2
+EXCLUDED compiler implementation TypedRound.xEnd._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._cstage2
+EXCLUDED compiler implementation List.pwFilter._at.TypedRound.instFintypeRole._spec_8
+EXCLUDED compiler implementation TypedRound.Segment.toRole._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqEdge.«_@».Bootstrap.TypedRound._hyg.1061._cstage1
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeRole._spec_10
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.Edge.fromRole.match_1.splitter._cstage2
+EXCLUDED compiler implementation Multiset.toFinset._at.TypedRound.instFintypeRole._spec_4
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_6._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeRole._spec_10._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_3._cstage2
+EXCLUDED compiler implementation TypedRound.roleType._cstage2
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeRole._spec_2
+EXCLUDED compiler implementation TypedRound.instFintypeSumKind._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._cstage2
+EXCLUDED compiler implementation TypedRound.yEnd._cstage2
+EXCLUDED compiler implementation TypedRound.LocalRole.kind.match_1._cstage1
+EXCLUDED compiler implementation TypedRound.Edge.fromRole._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_10._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqLocalRole.match_1.«_@».Bootstrap.TypedRound._hyg.34._cstage1
+EXCLUDED compiler implementation TypedRound.hostType._rarg._closed_1._cstage2
+EXCLUDED compiler implementation TypedRound.hostType._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.fixedArc.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_23._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.segmentOK.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.fromRole.match_1._cstage1
+EXCLUDED compiler implementation TypedRound.instDecidableEqSegment._cstage1
+EXCLUDED compiler implementation Multiset.toFinset._at.TypedRound.instFintypeSumKind._spec_4
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_16._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_9._cstage2
+EXCLUDED compiler implementation Multiset.dedup._at.TypedRound.instFintypeEdge._spec_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._cstage2
+EXCLUDED compiler implementation Multiset.toFinset._at.TypedRound.instFintypeEdge._spec_2._cstage2
+EXCLUDED compiler implementation TypedRound.instFintypeRole._cstage1
+EXCLUDED compiler implementation TypedRound.Positions.image._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqKind.«_@».Bootstrap.TypedRound._hyg.400._cstage2
+EXCLUDED compiler implementation List.toFinset._at.TypedRound.instFintypeSumKind._spec_3
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqLocalRole.«_@».Bootstrap.TypedRound._hyg.34._cstage2
+EXCLUDED compiler implementation TypedRound.LocalRole.kind._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.fromRole._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.rule._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.pathArc.match_1.splitter._cstage1
+EXCLUDED compiler implementation TypedRound.pathArc.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.segmentOK.match_1.splitter._cstage1
+EXCLUDED compiler implementation Multiset.toFinset._at.TypedRound.instFintypeSumKind._spec_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_13._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._elambda_1._cstage1
+EXCLUDED compiler implementation List.dedup._at.TypedRound.instFintypeSumKind._spec_6
+EXCLUDED compiler implementation TypedRound.instDecidableEqEdge._cstage2
+EXCLUDED compiler implementation List.foldrTR._at.TypedRound.instFintypeEdge._spec_6
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_7._cstage2
+EXCLUDED compiler implementation TypedRound.hostType._cstage1
+EXCLUDED compiler implementation TypedRound.Segment.noConfusion._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.Edge.toRole._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_4._cstage2
+EXCLUDED compiler implementation List.dedup._at.TypedRound.instFintypeSumKind._spec_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.Segment.fromRole.match_1.splitter._cstage2
+EXCLUDED compiler implementation List.foldrTR._at.TypedRound.instFintypeEdge._spec_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.fixedArc.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._elambda_1
+EXCLUDED compiler implementation TypedRound.host._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.instDecidablePairOfDecidableEq._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_24._cstage2
+EXCLUDED compiler implementation Multiset.dedup._at.TypedRound.instFintypeSumKind._spec_5
+EXCLUDED compiler implementation TypedRound.instFintypeEdge._cstage1
+EXCLUDED compiler implementation TypedRound.Segment.ofNat._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt._cstage1
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeSumKind._spec_2._cstage2
+EXCLUDED compiler implementation TypedRound.Positions.image._rarg._cstage2
+EXCLUDED compiler implementation List.pwFilter._at.TypedRound.instFintypeRole._spec_8._cstage2
+EXCLUDED compiler implementation TypedRound.nextIndex._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.toCtorIdx._cstage1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at.TypedRound.instFintypeSumKind._spec_7
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeRole._spec_1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.LocalRole.kind.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_9._cstage2
+EXCLUDED compiler implementation List.toFinset._at.TypedRound.instFintypeRole._spec_3._cstage2
+EXCLUDED compiler implementation TypedRound.instDecidableEqKind._cstage1
+EXCLUDED compiler implementation TypedRound.hostType._rarg._lambda_1._cstage2
+EXCLUDED compiler implementation TypedRound.segmentOK.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._cstage1
+EXCLUDED compiler implementation List.dedup._at.TypedRound.instFintypeEdge._spec_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.Segment.fromRole.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.noConfusion._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqEdge.match_1.«_@».Bootstrap.TypedRound._hyg.1061._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_21._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_22._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_7._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.LocalRole.kind.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeEdge._spec_7._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation Multiset.dedup._at.TypedRound.instFintypeRole._spec_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_19._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_1._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.fromRole._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_15._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_14._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.Edge.fromRole.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.toRole._closed_1._cstage2
+EXCLUDED compiler implementation TypedRound.xEnd._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_26._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_25._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_8._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.fixedArc.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.Segment.noConfusion._rarg._lambda_1._cstage2
+EXCLUDED compiler implementation TypedRound.roleType._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.fixedArc.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_11._cstage2
+EXCLUDED compiler implementation List.foldrTR._at.TypedRound.instFintypeSumKind._spec_9
+EXCLUDED compiler implementation TypedRound.instDecidableEqSegment._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_1._cstage2
+EXCLUDED compiler implementation TypedRound.instDecidableEqLocalRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt._rarg._cstage2
+EXCLUDED compiler implementation List.toFinset._at.TypedRound.instFintypeSumKind._spec_3._cstage2
+EXCLUDED compiler implementation TypedRound.step._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqKind.«_@».Bootstrap.TypedRound._hyg.400._cstage1
+EXCLUDED compiler implementation TypedRound.rule._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.pathArc.match_1.splitter._cstage2
+EXCLUDED compiler implementation Multiset.dedup._at.TypedRound.instFintypeEdge._spec_3
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqLocalRole.«_@».Bootstrap.TypedRound._hyg.34._cstage1
+EXCLUDED compiler implementation TypedRound.LocalRole.kind._cstage1
+EXCLUDED compiler implementation Multiset.dedup._at.TypedRound.instFintypeSumKind._spec_5._cstage2
+EXCLUDED compiler implementation Multiset.toFinset._at.TypedRound.instFintypeEdge._spec_2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseAt.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeEdge._spec_7
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.baseEmbedding._elambda_1._cstage2
+EXCLUDED compiler implementation TypedRound.hostType._cstage2
+EXCLUDED compiler implementation TypedRound.instDecidableEqEdge._cstage1
+EXCLUDED compiler implementation Multiset.dedup._at.TypedRound.instFintypeRole._spec_5
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeEdge._spec_7._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.segmentOK.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_27._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._cstage2
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeSumKind._spec_1
+EXCLUDED compiler implementation List.pwFilter._at.TypedRound.instFintypeSumKind._spec_8._cstage2
+EXCLUDED compiler implementation TypedRound.yEnd._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.Positions.image._rarg._lambda_2._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeSumKind._spec_10._lambda_1._cstage2
+EXCLUDED compiler implementation TypedRound.instFintypeEdge._cstage2
+EXCLUDED compiler implementation List.dedup._at.TypedRound.instFintypeRole._spec_6
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.TypedRound.instFintypeRole._spec_10._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_4._cstage2
+EXCLUDED compiler implementation TypedRound.host._cstage2
+EXCLUDED compiler implementation Multiset.toFinset._at.TypedRound.instFintypeRole._spec_4._cstage2
+EXCLUDED compiler implementation List.toFinset._at.TypedRound.instFintypeEdge._spec_1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.instDecidablePairOfDecidableEq._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.Edge.fromRole.match_1.splitter._cstage1
+EXCLUDED compiler implementation List.foldrTR._at.TypedRound.instFintypeRole._spec_9
+EXCLUDED compiler implementation TypedRound.Segment.toRole._cstage2
+EXCLUDED compiler implementation TypedRound.Edge.fromRole.match_1._cstage1
+EXCLUDED compiler implementation List.dedup._at.TypedRound.instFintypeRole._spec_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.decEqEdge.«_@».Bootstrap.TypedRound._hyg.1061._cstage2
+EXCLUDED compiler implementation List.toFinset._at.TypedRound.instFintypeEdge._spec_1._cstage2
+EXCLUDED compiler implementation TypedRound.instFintypeSumKind._cstage1
+EXCLUDED compiler implementation TypedRound.yEnd._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._cstage1
+EXCLUDED compiler implementation List.mapTR.loop._at.TypedRound.instFintypeSumKind._spec_1._cstage2
+EXCLUDED compiler implementation TypedRound.roleType._cstage1
+EXCLUDED compiler implementation TypedRound.Segment.noConfusion._rarg._closed_1._cstage2
+EXCLUDED compiler implementation TypedRound.Edge.fromRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_9._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._closed_3._cstage2
+EXCLUDED compiler implementation TypedRound.Positions.image._cstage2
+EXCLUDED compiler implementation TypedRound.instFintypeRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.kinds._closed_8._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.edgeList._cstage1
+EXCLUDED compiler implementation TypedRound.Positions.image._rarg._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_10._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.instDecidablePairOfDecidableEq._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.localRoles._closed_5._cstage2
+EXCLUDED compiler implementation TypedRound.xEnd._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedRound.0.TypedRound.base._elambda_1
+MODULE Bootstrap.TypedRound PASS 283 safe declarations
+RESULT Bootstrap.TypedRound 283 233 propext Quot.sound Classical.choice
+REPLAY Bootstrap.MarkerMaps in a fresh process
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.instDecidableAdjRoleRule._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockRole._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vertexRole._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.kindId._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.instDecidableAdjRoleRule._lambda_1._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.port._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.roleOrdinal.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.instDecidableAdjRoleRule._lambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_2._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.roleOrdinal._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.sourceCode._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_1._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vindex._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockMap._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.blockMap.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_3._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.hostCode._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.blockMap.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockMap._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_4._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.instDecidableAdjRoleRule._lambda_1._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockRole._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockMap.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._closed_5._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.kindId.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_4._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.kindId._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._closed_6._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.sourceCode._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.roleOrdinal._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vindex._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vblock._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_4
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.instDecidableAdjRoleRule._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockMap._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.MarkerMaps.0.Bootstrap.MarkedSimulation.blockMap.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vertexRole._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.blockRole._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vertexRole._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.hostCode._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_2._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.hostCode._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.liftEmbedding._elambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.port._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_3._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vblock._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.sourceCode._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._closed_3._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vindex._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.selected._closed_4._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_3._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.hostCode._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vblock.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_3
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.place._elambda_4._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.vblock._cstage2
+MODULE Bootstrap.MarkerMaps PASS 40 safe declarations
+RESULT Bootstrap.MarkerMaps 40 76 propext Quot.sound Classical.choice
+REPLAY Bootstrap.RuleStructure in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._cstage2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_8._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._rarg._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.Bootstrap.RuleStructure.kindFintype._spec_7._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_1
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation Multiset.dedup._at.Bootstrap.RuleStructure.kindFintype._spec_3._cstage2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._cstage2
+EXCLUDED compiler implementation List.toFinset._at.Bootstrap.RuleStructure.kindFintype._spec_1._cstage2
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.Bootstrap.RuleStructure.kindFintype._spec_7
+EXCLUDED compiler implementation Array.foldrMUnsafe.fold._at.Bootstrap.RuleStructure.kindFintype._spec_7._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_2._cstage2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_9._cstage2
+EXCLUDED compiler implementation List.dedup._at.Bootstrap.RuleStructure.kindFintype._spec_4
+EXCLUDED compiler implementation List.foldrTR._at.Bootstrap.RuleStructure.kindFintype._spec_6._cstage2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._cstage1
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_7._cstage2
+EXCLUDED compiler implementation Multiset.toFinset._at.Bootstrap.RuleStructure.kindFintype._spec_2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv.match_2._cstage1
+EXCLUDED compiler implementation List.dedup._at.Bootstrap.RuleStructure.kindFintype._spec_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._cstage1
+EXCLUDED compiler implementation List.pwFilter._at.Bootstrap.RuleStructure.kindFintype._spec_5
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_2._cstage1
+EXCLUDED compiler implementation List.foldrTR._at.Bootstrap.RuleStructure.kindFintype._spec_6
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_1._cstage1
+EXCLUDED compiler implementation Multiset.dedup._at.Bootstrap.RuleStructure.kindFintype._spec_3
+EXCLUDED compiler implementation List.toFinset._at.Bootstrap.RuleStructure.kindFintype._spec_1
+EXCLUDED compiler implementation Multiset.toFinset._at.Bootstrap.RuleStructure.kindFintype._spec_2._cstage2
+EXCLUDED compiler implementation Bootstrap.RuleStructure.kindFintype._closed_4._cstage2
+EXCLUDED compiler implementation List.pwFilter._at.Bootstrap.RuleStructure.kindFintype._spec_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleStructure.0.Bootstrap.RuleStructure.fiberEquiv.match_1._cstage1
+MODULE Bootstrap.RuleStructure PASS 28 safe declarations
+RESULT Bootstrap.RuleStructure 28 39 propext Quot.sound Classical.choice
+REPLAY Bootstrap.CyclicClock in a fresh process
+EXCLUDED compiler implementation Bootstrap.CyclicClock.residue._cstage2
+EXCLUDED compiler implementation Bootstrap.CyclicClock.diagonal._cstage1
+EXCLUDED compiler implementation Bootstrap.CyclicClock.run._unsafe_rec
+EXCLUDED compiler implementation Bootstrap.CyclicClock.run.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.CyclicClock.shift._cstage1
+EXCLUDED compiler implementation Bootstrap.CyclicClock.residue._cstage1
+EXCLUDED compiler implementation Bootstrap.CyclicClock.diagonal._cstage2
+EXCLUDED compiler implementation Bootstrap.CyclicClock.shift._cstage2
+MODULE Bootstrap.CyclicClock PASS 55 safe declarations
+RESULT Bootstrap.CyclicClock 55 8 propext Quot.sound
+REPLAY Bootstrap.TypedClock in a fresh process
+EXCLUDED compiler implementation TypedRound.graphRun.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedClock.0.Bootstrap.CyclicClock.run.match_1.splitter._cstage2
+EXCLUDED compiler implementation TypedRound.graphRun._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.graphRun._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedClock.0.TypedRound.fixedArc.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TypedClock.0.TypedRound.fixedArc.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation TypedRound.graphRun._unsafe_rec
+EXCLUDED compiler implementation _private.Bootstrap.TypedClock.0.TypedRound.fixedArc.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedClock.0.Bootstrap.CyclicClock.run.match_1.splitter._cstage1
+EXCLUDED compiler implementation TypedRound.graphRun._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TypedClock.0.Bootstrap.CyclicClock.run.match_1.splitter._rarg._cstage2
+MODULE Bootstrap.TypedClock PASS 49 safe declarations
+RESULT Bootstrap.TypedClock 49 11 propext Quot.sound Classical.choice
+REPLAY Bootstrap.MarkedSimulation in a fresh process
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.initial._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.expansion._cstage1
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.ordinaryRule._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.initial._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.expansion._cstage2
+EXCLUDED compiler implementation Bootstrap.MarkedSimulation.ordinaryRule._cstage1
+MODULE Bootstrap.MarkedSimulation PASS 26 safe declarations
+RESULT Bootstrap.MarkedSimulation 26 6 propext Quot.sound Classical.choice
+REPLAY Bootstrap.QuadraticRule in a fresh process
+MODULE Bootstrap.QuadraticRule PASS 7 safe declarations
+RESULT Bootstrap.QuadraticRule 7 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.InitialProperties in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.allPages._rarg._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.zeroFin._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.allPages._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList._closed_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.previous._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.allPages._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.zeroFin._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.allPages._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._closed_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.representative._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.previous._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.pageEmbedding._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.sideList._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.primaryHom._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._lambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.InitialProperties.0.Bootstrap.MarkedSimulation.candidates._closed_2._cstage2
+MODULE Bootstrap.InitialProperties PASS 55 safe declarations
+RESULT Bootstrap.InitialProperties 55 55 propext Quot.sound Classical.choice
+REPLAY Bootstrap.BoundedHosts in a fresh process
+MODULE Bootstrap.BoundedHosts PASS 16 safe declarations
+RESULT Bootstrap.BoundedHosts 16 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.RuleEdgeCount in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.asEdge._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.signature.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.key._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.encoded._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.key.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.high._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.H._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.lo._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.hi._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.Code._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.coreKey.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.signature.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ordinal._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.coreKey.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.key._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.Port._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.high._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.key.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.low._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.key.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv.match_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.coreKey.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.asEdge._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.signature.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.coreKey.match_1.splitter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.encoded._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.key.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.lo._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.lo._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.hi._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.H._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.Port._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.labelEquiv._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.Code._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.low._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.signature.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ordinal._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleEdgeCount.0.Bootstrap.RuleEdgeCount.ends.match_1._cstage1
+MODULE Bootstrap.RuleEdgeCount PASS 153 safe declarations
+RESULT Bootstrap.RuleEdgeCount 153 57 propext Classical.choice Quot.sound
+REPLAY Bootstrap.RuleConnectivity in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableAdjRoleRule._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_6._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_7._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.Without._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.H._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_12._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.Code._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.safeBit._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableAdjRoleRule._lambda_1._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableAdjRoleRule._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._elambda_1._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_13._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableTagAdj._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_9._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_16._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_10._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_5._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.Without._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ringEmb._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_11._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_8._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableAdjRoleRule._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_14._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_15._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._elambda_1._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableAdjRoleRule._lambda_1._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.instDecidableTagAdj._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._elambda_1._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.H._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.Code._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.safeBit._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ringEmb._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.ring._closed_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.RuleConnectivity.0.Bootstrap.RuleConnectivity.tagMap._cstage1
+MODULE Bootstrap.RuleConnectivity PASS 48 safe declarations
+RESULT Bootstrap.RuleConnectivity 48 44 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TreeBags in a fresh process
+MODULE Bootstrap.TreeBags PASS 29 safe declarations
+RESULT Bootstrap.TreeBags 29 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TreeConstruction in a fresh process
+EXCLUDED compiler implementation Finset.biUnion._at.Bootstrap.TreeBags.rowsOK._spec_3._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.TreeBags.rowsOK._spec_1
+EXCLUDED compiler implementation Finset.biUnion._at.Bootstrap.TreeBags.rowsOK._spec_3._rarg._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.TreeBags.rowsResult._spec_2._rarg._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.TreeBags.rowsResult._spec_1._rarg._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.TreeBags.rowsOK._spec_1._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.TreeBags.rowsOK._spec_2._rarg._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.TreeBags.rowsResult._spec_1
+EXCLUDED compiler implementation List.elem._at.Bootstrap.TreeBags.rowsResult._spec_2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsOK._cstage1
+EXCLUDED compiler implementation List.elem._at.Bootstrap.TreeBags.rowsOK._spec_2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.TreeBags.rowsOK._spec_2._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult.match_1._cstage1
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.TreeBags.rowsOK._spec_1._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsOK._unsafe_rec
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._unsafe_rec
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsOK._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Finset.biUnion._at.Bootstrap.TreeBags.rowsOK._spec_3
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsOK._rarg._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.TreeBags.rowsResult._spec_2._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.TreeBags.rowsResult._spec_1._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsOK._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._cstage1
+MODULE Bootstrap.TreeConstruction PASS 11 safe declarations
+RESULT Bootstrap.TreeConstruction 11 25 propext Quot.sound Classical.choice
+REPLAY Bootstrap.HubBags in a fresh process
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_7._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._at.Bootstrap.SourceBags.baseBags._spec_1._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_2._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_6._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.SourceBags.baseRows._spec_1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_6._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseIndex.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_7._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_18._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.SourceBags.baseRows._spec_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRoot._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_28._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_12._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.instDecidableEqBlockRole.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseIndex._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_17._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_17._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_20._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.SourceBags.baseBags._spec_3
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_12._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hubMap._elambda_1._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_18._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.share._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hubMap._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hubMap._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.SourceBags.baseRows._spec_2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_13._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_1._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_3._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseBags._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.instDecidableEqBlockRole._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.decodeSlot._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.SourceBags.baseRows._spec_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_16._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_4._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_10._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.SourceBags.baseBags._spec_2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_5._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_27._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseBags._closed_1._cstage2
+EXCLUDED compiler implementation List.elem._at.Bootstrap.SourceBags.baseBags._spec_3._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_9._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_11._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRoot._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._at.Bootstrap.SourceBags.baseBags._spec_1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRoot._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_8._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_8._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.decodeBlock._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_11._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_14._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_15._cstage2
+EXCLUDED compiler implementation Bootstrap.TreeBags.rowsResult._at.Bootstrap.SourceBags.baseBags._spec_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_25._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_26._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hubMap._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_21._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_22._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.share._lambda_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_14._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseBags._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_19._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.instDecidableEqBlockRole._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_15._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at.Bootstrap.SourceBags.baseBags._spec_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_3._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.decodeSlot._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_24._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseIndex._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_13._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hubMap._elambda_1
+EXCLUDED compiler implementation Bootstrap.SourceBags.hubMap._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.share._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_9._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._cstage1
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_5._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_10._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_16._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.HubBags.0.Bootstrap.SourceBags.ordinalRole._closed_4._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.hub._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.decodeBlock._cstage2
+EXCLUDED compiler implementation Bootstrap.SourceBags.baseRows._closed_23._cstage2
+MODULE Bootstrap.HubBags PASS 44 safe declarations
+RESULT Bootstrap.HubBags 44 98 propext Quot.sound Classical.choice
+REPLAY Bootstrap.SourceWidth in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.Extra.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.leftEnd._elambda_1._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SourceWidth.0.Bootstrap.SourceBags.rightEnd._closed_1._cstage2
+MODULE Bootstrap.SourceWidth PASS 14 safe declarations
+RESULT Bootstrap.SourceWidth 14 23 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TreeSemantics in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.oldHom._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.extendBag.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.edgeCode.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.oldHom._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.edgeCode._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.edgeCode._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.leaf._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.restricted._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.oldHom._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.extendBag._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.edgeCode._rarg._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.oldHom._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.restricted._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.edgeCode._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.oldHom._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.extendBag._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.leaf.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.leaf._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.extendBag._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeSemantics.0.Bootstrap.TreeSemantics.oldHom._elambda_1._rarg._cstage2
+MODULE Bootstrap.TreeSemantics PASS 72 safe declarations
+RESULT Bootstrap.TreeSemantics 72 20 propext Quot.sound Classical.choice
+REPLAY Bootstrap.Counterexample in a fresh process
+MODULE Bootstrap.Counterexample PASS 6 safe declarations
+RESULT Bootstrap.Counterexample 6 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.CounterexampleDetails in a fresh process
+MODULE Bootstrap.CounterexampleDetails PASS 9 safe declarations
+RESULT Bootstrap.CounterexampleDetails 9 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.Suppression in a fresh process
+EXCLUDED compiler implementation Bootstrap.Suppression.graph._cstage1
+EXCLUDED compiler implementation Bootstrap.Suppression.graph._cstage2
+MODULE Bootstrap.Suppression PASS 34 safe declarations
+RESULT Bootstrap.Suppression 34 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ExtensionCorollary in a fresh process
+MODULE Bootstrap.ExtensionCorollary PASS 12 safe declarations
+RESULT Bootstrap.ExtensionCorollary 12 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ExtensionOperation in a fresh process
+MODULE Bootstrap.ExtensionOperation PASS 5 safe declarations
+RESULT Bootstrap.ExtensionOperation 5 0 Quot.sound propext Classical.choice
+REPLAY Bootstrap.ThetaBags in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.earlier._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._cstage2
+EXCLUDED compiler implementation List.elem._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_5
+EXCLUDED compiler implementation Multiset.ndinsert._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.rank._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.rank._cstage1
+EXCLUDED compiler implementation Multiset.ndinsert._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._closed_2._cstage2
+EXCLUDED compiler implementation List.elem._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_3
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.rank.match_1._cstage1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_1._rarg._cstage2
+EXCLUDED compiler implementation List.elem._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_5._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_4
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._cstage1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_1._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_4._cstage2
+EXCLUDED compiler implementation List.elem._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_3
+EXCLUDED compiler implementation List.elem._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.rank._cstage2
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._closed_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.earlier._cstage1
+EXCLUDED compiler implementation Multiset.ndinsert._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_2
+EXCLUDED compiler implementation List.elem._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_3._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._cstage1
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.earlier._rarg._cstage2
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_1._rarg._closed_2._cstage2
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_1._rarg._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.poles._spec_1._cstage2
+EXCLUDED compiler implementation Multiset.ndinsert._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_2
+EXCLUDED compiler implementation _private.Init.Data.Sum.Basic.0.Sum.decEqSum.«_@».Init.Data.Sum.Basic._hyg.5._at._private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._spec_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaBags.0.Bootstrap.Theta.armBag._cstage2
+MODULE Bootstrap.ThetaBags PASS 21 safe declarations
+RESULT Bootstrap.ThetaBags 21 35 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaConnectivity in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaConnectivity.0.Bootstrap.Theta.deleted._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaConnectivity.0.Bootstrap.Theta.deleted._cstage1
+MODULE Bootstrap.ThetaConnectivity PASS 12 safe declarations
+RESULT Bootstrap.ThetaConnectivity 12 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.QuantitativeLongRoute in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.projectCover._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.parityEnd._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.projectCover._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.parityCover._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.projectCover._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.projectCover._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.parityEnd._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.projectCover._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.projectCover._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.QuantitativeLongRoute.0.Bootstrap.DegreeTwo.parityCover._cstage2
+MODULE Bootstrap.QuantitativeLongRoute PASS 24 safe declarations
+RESULT Bootstrap.QuantitativeLongRoute 24 10 propext Quot.sound Classical.choice
+REPLAY Bootstrap.VertexCover in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.labelAdj.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.VertexCover.fibreGroup._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.decode._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.labelAdj.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.labelAdj.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.VertexCover.fibreGroup._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.decode.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.VertexCover.fibreGroup._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.decode._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.decode._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.VertexCover.0.Bootstrap.VertexCover.labelAdj.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.VertexCover.fibreGroup._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.VertexCover.fibreGroup._closed_3._cstage2
+MODULE Bootstrap.VertexCover PASS 27 safe declarations
+RESULT Bootstrap.VertexCover 27 13 propext Quot.sound Classical.choice
+REPLAY Bootstrap.Preprint in a fresh process
+MODULE Bootstrap.Preprint PASS 1 safe declarations
+RESULT Bootstrap.Preprint 1 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.AppendixEdgeCharges in a fresh process
+EXCLUDED compiler implementation Bootstrap.Subdivision.Appendix.Chosen.endpoints._cstage1
+EXCLUDED compiler implementation Bootstrap.Subdivision.Appendix.Chosen.endpoints._cstage2
+EXCLUDED compiler implementation Bootstrap.Subdivision.Appendix.Chosen.endpoints._rarg._cstage2
+MODULE Bootstrap.AppendixEdgeCharges PASS 48 safe declarations
+RESULT Bootstrap.AppendixEdgeCharges 48 3 Quot.sound propext Classical.choice
+REPLAY Bootstrap.SubdivisionLedger in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionLedger.0.Bootstrap.Subdivision.band._cstage1
+EXCLUDED compiler implementation Finset.image._at._private.Bootstrap.SubdivisionLedger.0.Bootstrap.Subdivision.band._spec_1
+EXCLUDED compiler implementation Finset.image._at._private.Bootstrap.SubdivisionLedger.0.Bootstrap.Subdivision.band._spec_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.SubdivisionLedger.0.Bootstrap.Subdivision.band._cstage2
+MODULE Bootstrap.SubdivisionLedger PASS 33 safe declarations
+RESULT Bootstrap.SubdivisionLedger 33 4 propext Quot.sound Classical.choice
+REPLAY Bootstrap.AppendixMergeSchedule in a fresh process
+MODULE Bootstrap.AppendixMergeSchedule PASS 25 safe declarations
+RESULT Bootstrap.AppendixMergeSchedule 25 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.AppendixBudget in a fresh process
+MODULE Bootstrap.AppendixBudget PASS 3 safe declarations
+RESULT Bootstrap.AppendixBudget 3 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.AppendixEdgeBudget in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.AppendixEdgeBudget.0.Bootstrap.Subdivision.Appendix.band._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.AppendixEdgeBudget.0.Bootstrap.Subdivision.Appendix.band._cstage1
+MODULE Bootstrap.AppendixEdgeBudget PASS 32 safe declarations
+RESULT Bootstrap.AppendixEdgeBudget 32 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.PrimitiveContraction in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Contraction.strip._cstage2
+EXCLUDED compiler implementation Finset.Ico._at.Bootstrap.Theta.Contraction.strip._spec_1
+EXCLUDED compiler implementation Bootstrap.Theta.Contraction.strip._rarg._cstage2
+EXCLUDED compiler implementation Finset.Ico._at.Bootstrap.Theta.Contraction.strip._spec_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Contraction.strip._cstage1
+MODULE Bootstrap.PrimitiveContraction PASS 59 safe declarations
+RESULT Bootstrap.PrimitiveContraction 59 5 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCycleChart in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.armSize._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armSize._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.cyclePt._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.perimeter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.perimeter._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCycleChart.0.Bootstrap.Theta.vertexCoord.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.vertexCoord.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.vertexCoord._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.vertexCoord._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.cyclePt._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.OnCycle.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCycleChart.0.Bootstrap.Theta.vertexCoord.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armSize._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.cyclePt._rarg._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.cyclePt._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.vertexCoord._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.perimeter._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.cyclePt._rarg._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCycleChart.0.Bootstrap.Theta.vertexCoord.match_1.splitter._cstage1
+MODULE Bootstrap.ThetaCycleChart PASS 81 safe declarations
+RESULT Bootstrap.ThetaCycleChart 81 19 propext Classical.choice Quot.sound
+REPLAY Bootstrap.TerminalSymmetry in a fresh process
+MODULE Bootstrap.TerminalSymmetry PASS 10 safe declarations
+RESULT Bootstrap.TerminalSymmetry 10 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaReflections in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.reflected._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.armEnd.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.armEnd._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armEnd._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.reflected._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armEnd._cstage1
+MODULE Bootstrap.ThetaReflections PASS 20 safe declarations
+RESULT Bootstrap.ThetaReflections 20 6 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaIntegerChart in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.indexZ._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.intPt._cstage1
+EXCLUDED compiler implementation zsmulRec._at.Bootstrap.Theta.indexZ._spec_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armPt._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armPt._cstage2
+EXCLUDED compiler implementation nsmulRec._at.Bootstrap.Theta.indexZ._spec_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.indexZ._cstage2
+EXCLUDED compiler implementation zsmulRec._at.Bootstrap.Theta.indexZ._spec_2
+EXCLUDED compiler implementation Bootstrap.Theta.armPt._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.intPt._cstage2
+EXCLUDED compiler implementation zsmulRec._at.Bootstrap.Theta.indexZ._spec_2._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.intPt._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armPt._rarg._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.armPt._cstage1
+EXCLUDED compiler implementation nsmulRec._at.Bootstrap.Theta.indexZ._spec_1
+MODULE Bootstrap.ThetaIntegerChart PASS 38 safe declarations
+RESULT Bootstrap.ThetaIntegerChart 38 15 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSelfBipartite in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.completeBetween._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.naturalColor._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSelfBipartite.0.Bootstrap.Theta.naturalColor.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.completeBetween._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.naturalColor.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.naturalColor._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSelfBipartite.0.Bootstrap.Theta.naturalColor.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSelfBipartite.0.Bootstrap.Theta.naturalColor.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.naturalColor._rarg._cstage2
+MODULE Bootstrap.ThetaSelfBipartite PASS 25 safe declarations
+RESULT Bootstrap.ThetaSelfBipartite 25 9 propext Quot.sound Classical.choice
+REPLAY Bootstrap.PrimitiveThetaGeometry in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Contraction.natPoint._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Contraction.natPoint._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.PrimitiveThetaGeometry.0.Bootstrap.Theta.OnCycle.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.PrimitiveThetaGeometry.0.Bootstrap.Theta.OnCycle.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Contraction.natPoint._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.PrimitiveThetaGeometry.0.Bootstrap.Theta.OnCycle.match_1.splitter._cstage1
+MODULE Bootstrap.PrimitiveThetaGeometry PASS 22 safe declarations
+RESULT Bootstrap.PrimitiveThetaGeometry 22 6 propext Quot.sound Classical.choice
+REPLAY Bootstrap.PrimitiveParameters in a fresh process
+MODULE Bootstrap.PrimitiveParameters PASS 33 safe declarations
+RESULT Bootstrap.PrimitiveParameters 33 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaIncidence in a fresh process
+MODULE Bootstrap.ThetaIncidence PASS 4 safe declarations
+RESULT Bootstrap.ThetaIncidence 4 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaColourBalance in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.reversePosition._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.reversePosition.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.reversePosition._rarg._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaColourBalance.0.Bootstrap.Theta.reversePosition.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaColourBalance.0.Bootstrap.Theta.reversePosition.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.missingBetween._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.reversePosition._rarg._closed_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaColourBalance.0.Bootstrap.Theta.reversePosition.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.reversePosition._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.missingBetween._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.reversePosition._rarg._cstage2
+MODULE Bootstrap.ThetaColourBalance PASS 17 safe declarations
+RESULT Bootstrap.ThetaColourBalance 17 11 propext Quot.sound Classical.choice
+REPLAY Bootstrap.PrimitiveFromSeeds in a fresh process
+MODULE Bootstrap.PrimitiveFromSeeds PASS 17 safe declarations
+RESULT Bootstrap.PrimitiveFromSeeds 17 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaTranslationGroup in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.graphSymmetries._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.reflectionGroup._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.graphSymmetries._closed_1._cstage2
+EXCLUDED compiler implementation Subgroup.closure._at.Bootstrap.Theta.reflectionGroup._spec_1._lambda_1._cstage2
+EXCLUDED compiler implementation Subgroup.closure._at.Bootstrap.Theta.reflectionGroup._spec_1._lambda_2._cstage2
+EXCLUDED compiler implementation iInf._at.Bootstrap.Theta.reflectionGroup._spec_2._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.translations._cstage1
+EXCLUDED compiler implementation Submonoid.copy._at.Bootstrap.Theta.reflectionGroup._spec_4._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.graphSymmetries._closed_2._cstage2
+EXCLUDED compiler implementation iInf._at.Bootstrap.Theta.reflectionGroup._spec_3
+EXCLUDED compiler implementation Submonoid.copy._at.Bootstrap.Theta.reflectionGroup._spec_4
+EXCLUDED compiler implementation Subgroup.closure._at.Bootstrap.Theta.reflectionGroup._spec_1
+EXCLUDED compiler implementation iInf._at.Bootstrap.Theta.reflectionGroup._spec_2
+EXCLUDED compiler implementation Bootstrap.Theta.graphSymmetries._closed_3._cstage2
+EXCLUDED compiler implementation iInf._at.Bootstrap.Theta.reflectionGroup._spec_2._cstage2
+EXCLUDED compiler implementation Subgroup.closure._at.Bootstrap.Theta.reflectionGroup._spec_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.graphSymmetries._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.reflectionGroup._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.translations._closed_2._cstage2
+EXCLUDED compiler implementation iInf._at.Bootstrap.Theta.reflectionGroup._spec_3._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.translations._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.translations._cstage2
+MODULE Bootstrap.ThetaTranslationGroup PASS 15 safe declarations
+RESULT Bootstrap.ThetaTranslationGroup 15 22 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaPeriodArithmetic in a fresh process
+MODULE Bootstrap.ThetaPeriodArithmetic PASS 17 safe declarations
+RESULT Bootstrap.ThetaPeriodArithmetic 17 0 propext Quot.sound
+REPLAY Bootstrap.ThetaVertexOrbits in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaVertexOrbits.0.Bootstrap.Theta.label._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaVertexOrbits.0.Bootstrap.Theta.label._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaVertexOrbits.0.Bootstrap.Theta.orbitSetoid._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaVertexOrbits.0.Bootstrap.Theta.orbitSetoid._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaVertexOrbits.0.Bootstrap.Theta.label._cstage2
+MODULE Bootstrap.ThetaVertexOrbits PASS 11 safe declarations
+RESULT Bootstrap.ThetaVertexOrbits 11 5 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaExternalSeeds in a fresh process
+MODULE Bootstrap.ThetaExternalSeeds PASS 12 safe declarations
+RESULT Bootstrap.ThetaExternalSeeds 12 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.PrimitiveOrbitReduction in a fresh process
+MODULE Bootstrap.PrimitiveOrbitReduction PASS 13 safe declarations
+RESULT Bootstrap.PrimitiveOrbitReduction 13 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSeedArithmetic in a fresh process
+MODULE Bootstrap.ThetaSeedArithmetic PASS 9 safe declarations
+RESULT Bootstrap.ThetaSeedArithmetic 9 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaPrimitiveSeeds in a fresh process
+MODULE Bootstrap.ThetaPrimitiveSeeds PASS 6 safe declarations
+RESULT Bootstrap.ThetaPrimitiveSeeds 6 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCoordinateModulo in a fresh process
+MODULE Bootstrap.ThetaCoordinateModulo PASS 7 safe declarations
+RESULT Bootstrap.ThetaCoordinateModulo 7 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaParityCycle in a fresh process
+MODULE Bootstrap.ThetaParityCycle PASS 22 safe declarations
+RESULT Bootstrap.ThetaParityCycle 22 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaParityExtension in a fresh process
+MODULE Bootstrap.ThetaParityExtension PASS 33 safe declarations
+RESULT Bootstrap.ThetaParityExtension 33 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaUnitPair in a fresh process
+MODULE Bootstrap.ThetaUnitPair PASS 17 safe declarations
+RESULT Bootstrap.ThetaUnitPair 17 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaLabelInvariance in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.naturalDepth.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.labelPerms._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.naturalDepth._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.labelPerms._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.labelPerms._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.naturalDepth._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.labelPerms._closed_3._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.labelPerms._cstage1
+MODULE Bootstrap.ThetaLabelInvariance PASS 18 safe declarations
+RESULT Bootstrap.ThetaLabelInvariance 18 8 Classical.choice propext Quot.sound
+REPLAY Bootstrap.ThetaCoprimeClosure in a fresh process
+MODULE Bootstrap.ThetaCoprimeClosure PASS 28 safe declarations
+RESULT Bootstrap.ThetaCoprimeClosure 28 0 propext Classical.choice Quot.sound
+REPLAY Bootstrap.ThetaPrimitiveClosure in a fresh process
+MODULE Bootstrap.ThetaPrimitiveClosure PASS 24 safe declarations
+RESULT Bootstrap.ThetaPrimitiveClosure 24 0 Classical.choice propext Quot.sound
+REPLAY Bootstrap.EqualArmCoordinates in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmCoordinates.0.Bootstrap.Theta.EqualArms.armNumber.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.point._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.level.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.armNumber._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.armNumber._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.point._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.L._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.H._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.armNumber.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.oriented._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.point._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.M._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.level._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmCoordinates.0.Bootstrap.Theta.EqualArms.armNumber.match_1.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.armNumber._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.point._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.H._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.L._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.oriented._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.M._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.level._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmCoordinates.0.Bootstrap.Theta.EqualArms.armNumber.match_1.splitter._rarg._cstage2
+MODULE Bootstrap.EqualArmCoordinates PASS 67 safe declarations
+RESULT Bootstrap.EqualArmCoordinates 67 22 propext Quot.sound Classical.choice
+REPLAY Bootstrap.EqualArmWitness in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.gap._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.gap._cstage1
+MODULE Bootstrap.EqualArmWitness PASS 29 safe declarations
+RESULT Bootstrap.EqualArmWitness 29 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.EqualArmClosure in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._lambda_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._closed_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmClosure.0.Bootstrap.Theta.EqualArms.shortest_iso.match_2.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._lambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmClosure.0.Bootstrap.Theta.EqualArms.shortest_iso.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmClosure.0.Bootstrap.Theta.EqualArms.shortest_iso.match_2.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmClosure.0.Bootstrap.Theta.EqualArms.shortest_iso.match_2.splitter._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._closed_3._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso.match_2._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmClosure.0.Bootstrap.Theta.EqualArms.shortest_iso.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.EqualArmClosure.0.Bootstrap.Theta.EqualArms.shortest_iso.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.EqualArms.shortest_iso.match_1._cstage1
+MODULE Bootstrap.EqualArmClosure PASS 36 safe declarations
+RESULT Bootstrap.EqualArmClosure 36 15 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridor in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.M._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.point._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.H._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.segmentGraph._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.Junction.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.point._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.point._rarg._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.point._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.point._rarg._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.M._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.H._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.segmentGraph._cstage1
+MODULE Bootstrap.ThetaCorridor PASS 35 safe declarations
+RESULT Bootstrap.ThetaCorridor 35 12 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorChart in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.armTag.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.orient._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.indexTag._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.inside._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.realize._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.realize.match_1._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.armTag._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.orient._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.inside._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.indexTag._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.indexTag._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.armTag._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.realize._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.armTag._rarg._cstage2
+MODULE Bootstrap.ThetaCorridorChart PASS 32 safe declarations
+RESULT Bootstrap.ThetaCorridorChart 32 14 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorTwist in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.span._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.twistIndex._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.span._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.twistIndex._cstage1
+MODULE Bootstrap.ThetaCorridorTwist PASS 65 safe declarations
+RESULT Bootstrap.ThetaCorridorTwist 65 4 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorSpanning in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorSpanning.0.Bootstrap.Theta.Corridor.coordinate._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorSpanning.0.Bootstrap.Theta.Corridor.coordinate._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorSpanning.0.Bootstrap.Theta.Corridor.coordinate.match_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorSpanning.0.Bootstrap.Theta.Corridor.coordinate._cstage1
+MODULE Bootstrap.ThetaCorridorSpanning PASS 82 safe declarations
+RESULT Bootstrap.ThetaCorridorSpanning 82 4 Classical.choice propext Quot.sound
+REPLAY Bootstrap.ThetaCorridorSegments in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorSegments.0.Bootstrap.Theta.Corridor.sideDepth._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.flipDepth._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorSegments.0.Bootstrap.Theta.Corridor.sideDepth._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.flipDepth._cstage1
+MODULE Bootstrap.ThetaCorridorSegments PASS 54 safe declarations
+RESULT Bootstrap.ThetaCorridorSegments 54 4 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TerminalExchange in a fresh process
+MODULE Bootstrap.TerminalExchange PASS 9 safe declarations
+RESULT Bootstrap.TerminalExchange 9 0 Quot.sound propext Classical.choice
+REPLAY Bootstrap.ThetaCorridorExchange in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorExchange.0.Bootstrap.Theta.Corridor.depthAction._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorExchange.0.Bootstrap.Theta.Corridor.depthAction._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorExchange.0.Bootstrap.Theta.Corridor.depthAction._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorExchange.0.Bootstrap.Theta.Corridor.depthAction._elambda_1._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorExchange.0.Bootstrap.Theta.Corridor.depthAction._elambda_1
+MODULE Bootstrap.ThetaCorridorExchange PASS 10 safe declarations
+RESULT Bootstrap.ThetaCorridorExchange 10 5 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorStars in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorStars.0.Bootstrap.Theta.Corridor.fromSlot._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorStars.0.Bootstrap.Theta.Corridor.toSlot._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorStars.0.Bootstrap.Theta.Corridor.fromSlot._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorStars.0.Bootstrap.Theta.Corridor.toSlot._cstage2
+MODULE Bootstrap.ThetaCorridorStars PASS 42 safe declarations
+RESULT Bootstrap.ThetaCorridorStars 42 4 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorScaleTwo in a fresh process
+MODULE Bootstrap.ThetaCorridorScaleTwo PASS 6 safe declarations
+RESULT Bootstrap.ThetaCorridorScaleTwo 6 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorClosure in a fresh process
+MODULE Bootstrap.ThetaCorridorClosure PASS 24 safe declarations
+RESULT Bootstrap.ThetaCorridorClosure 24 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSelfClassification in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.lengthGcd._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.lengthGcd._cstage2
+MODULE Bootstrap.ThetaSelfClassification PASS 23 safe declarations
+RESULT Bootstrap.ThetaSelfClassification 23 2 Quot.sound propext Classical.choice
+REPLAY Bootstrap.ThetaSignedClasses in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.orbitMod._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.orbitMod._cstage1
+MODULE Bootstrap.ThetaSignedClasses PASS 17 safe declarations
+RESULT Bootstrap.ThetaSignedClasses 17 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSlotReflections in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.tip._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.tipDepth._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.tipDepth._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.tipFlip._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.tip._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.tipFlip._cstage1
+MODULE Bootstrap.ThetaSlotReflections PASS 32 safe declarations
+RESULT Bootstrap.ThetaSlotReflections 32 6 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSlotActions in a fresh process
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.slotGroup._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.slotGroup._closed_3._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.slotGroup._closed_2._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.slotGroup._closed_1._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.slotGroup._cstage2
+MODULE Bootstrap.ThetaSlotActions PASS 12 safe declarations
+RESULT Bootstrap.ThetaSlotActions 12 5 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSegmentResidues in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSegmentResidues.0.Bootstrap.Theta.naturalDepth.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSegmentResidues.0.Bootstrap.Theta.Corridor.Junction.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.reducedMod._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.portResidue._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.jointResidue._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSegmentResidues.0.Bootstrap.Theta.naturalDepth.match_1.splitter._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.reducedMod._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSegmentResidues.0.Bootstrap.Theta.Corridor.Junction.match_1.splitter._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSegmentResidues.0.Bootstrap.Theta.Corridor.Junction.match_1.splitter._rarg._cstage2
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.portResidue._cstage1
+EXCLUDED compiler implementation Bootstrap.Theta.Corridor.jointResidue._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaSegmentResidues.0.Bootstrap.Theta.naturalDepth.match_1.splitter._rarg._cstage2
+MODULE Bootstrap.ThetaSegmentResidues PASS 64 safe declarations
+RESULT Bootstrap.ThetaSegmentResidues 64 12 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaCorridorCounts in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_2._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_1._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.side._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_1._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.side._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_2._rarg._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_2._cstage1
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_2
+EXCLUDED compiler implementation _private.Bootstrap.ThetaCorridorCounts.0.Bootstrap.Theta.Corridor.depthEquiv._elambda_1._cstage1
+MODULE Bootstrap.ThetaCorridorCounts PASS 42 safe declarations
+RESULT Bootstrap.ThetaCorridorCounts 42 12 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaSegmentIncidence in a fresh process
+MODULE Bootstrap.ThetaSegmentIncidence PASS 24 safe declarations
+RESULT Bootstrap.ThetaSegmentIncidence 24 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaMixedIncidence in a fresh process
+MODULE Bootstrap.ThetaMixedIncidence PASS 7 safe declarations
+RESULT Bootstrap.ThetaMixedIncidence 7 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaOppositeSlot in a fresh process
+MODULE Bootstrap.ThetaOppositeSlot PASS 8 safe declarations
+RESULT Bootstrap.ThetaOppositeSlot 8 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.ThetaClosureClassification in a fresh process
+MODULE Bootstrap.ThetaClosureClassification PASS 4 safe declarations
+RESULT Bootstrap.ThetaClosureClassification 4 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.WidthOneDegenerate in a fresh process
+MODULE Bootstrap.WidthOneDegenerate PASS 7 safe declarations
+RESULT Bootstrap.WidthOneDegenerate 7 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TreeExtremalClock in a fresh process
+EXCLUDED compiler implementation _private.Bootstrap.TreeExtremalClock.0.Bootstrap.TreeLinear.choices._cstage2
+EXCLUDED compiler implementation _private.Bootstrap.TreeExtremalClock.0.Bootstrap.TreeLinear.choices._cstage1
+MODULE Bootstrap.TreeExtremalClock PASS 18 safe declarations
+RESULT Bootstrap.TreeExtremalClock 18 2 propext Quot.sound Classical.choice
+REPLAY Bootstrap.TreeSparseEmbedding in a fresh process
+MODULE Bootstrap.TreeSparseEmbedding PASS 8 safe declarations
+RESULT Bootstrap.TreeSparseEmbedding 8 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap.MinimumQuadraticWidth in a fresh process
+MODULE Bootstrap.MinimumQuadraticWidth PASS 6 safe declarations
+RESULT Bootstrap.MinimumQuadraticWidth 6 0 propext Quot.sound Classical.choice
+REPLAY Bootstrap in a fresh process
+MODULE Bootstrap PASS 0 safe declarations
+RESULT Bootstrap 0 0 
+PASS 3577 safe declarations, 120 project modules, 1218 compiler auxiliaries excluded
+TRANSITIVE AXIOMS #[Classical.choice, propext, Quot.sound]
+replay-rc=0
